@@ -1,0 +1,63 @@
+@charset "utf-8";
+@import url('https://fonts.googleapis.com/css?family=Nunito+Sans:200,400,600,700');
+
+/* reset */
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,code,form,fieldset,legend,textarea,p,blockquote,th,td,input,select,textarea,button {margin:0;padding:0}
+fieldset,img {border:0 none}
+dl,ul,ol,menu,li {list-style:none}
+blockquote, q {quotes: none}
+blockquote:before, blockquote:after,q:before, q:after {content:'';content:none}
+input,select,textarea,button {vertical-align:middle}
+button {border:0 none;background-color:transparent;cursor:pointer}
+body {background:#fff}
+body,th,td,input,select,textarea,button {font-size:14px;line-height:1.5;font-family:'Nunito Sans', "Malgun Gothic", dotum, gulim, sans-serif;color:#333}
+a {color:#333;text-decoration:none}
+a:active, a:hover {text-decoration:underline}
+address,caption,cite,code,dfn,em,var {font-style:normal;font-weight:normal}
+img {vertical-align:top}
+
+/* 공통 */
+.blind {overflow:hidden;position:absolute;width:1px;height:1px;clip:rect(1px, 1px, 1px, 1px)}
+
+/* 레이아웃 */
+.wrapper {min-width:1108px;}
+.inner {position:relative;margin:0 auto;width:1108px;box-sizing:border-box}
+.header .wrap_head {overflow:hidden;margin:0 auto;width:1108px;height:64px;box-sizing:border-box}
+.header .logo {float:left}
+.header .logo a {display:block;padding:22px 0;}
+.header .service {float:right}
+.header .service .menu {display:inline-block;overflow:hidden;vertical-align:top}
+.header .service .menu li {float:left}
+.header .service .menu .link {display:block;padding:20px 14px;font-size:16px;line-height:24px}
+.header .service .my {display:inline-block;overflow:hidden;vertical-align:top}
+.header .service .my .link {float:left;padding:22px 14px}
+.header .service .my .link:before {display:block;width:20px;height:20px;content:""}
+.header .service .my .search:before {background:red}
+.header .service .my .mypage:before {background:green}
+.header .wrap_category {overflow:hidden;height:64px;background:#f6f6f6;box-shadow:inset 0 5px 7px -5px rgba(0,0,0,0.5)}
+.header .category {padding-right:54px}
+.header .category:after {display:table;clear:both;content:"";table-layout:fixed}
+.header .category li {float:left;margin-right:18px}
+.header .category a {display:block;height:64px;padding:16px 0 19px;border-bottom:4px solid #f6f6f6;box-sizing:border-box;color:#4a4a4a;font-weight:600;font-size:20px;line-height:29px;text-decoration:none}
+.header .category .en {color:#9b9b9b;font-weight:200;font-size:16px}
+.header .category a:hover,
+.header .category .on a {border-color:currentColor;color:#00a2e1}
+.header .category a:hover .en,
+.header .category .on .en {color:#00a2e1}
+.header .btn_more {position:absolute;top:0;right:0;padding:25px 24px 23px}
+.header .btn_more:before {display:block;width:4px;height:16px;background:red;content:""}
+.footer {height:256px;background:#1b1e21}
+.footer .inner {padding:44px 0 0 563px}
+.footer .direct_menu {overflow:hidden;width:446px;height:148px}
+.footer .direct_menu li {float:left;width:223px}
+.footer .direct_menu a {display:inline-block;padding:4px;color:#fff;font-size:16px;line-height:24px;vertical-align:top}
+.footer .copyright {color:#9b9b9b;font-size:12px}
+
+/* 메인 */
+.main {}
+.main .header {position:absolute;left:0;right:0;}
+.main .visual {padding-top:64px;height:496px;box-sizing:border-box;background:blueviolet}
+.txt_desc {color:#fff}
+.txt_desc h2 {font-weight:600;font-size:40px;line-height:54px;letter-spacing:1px}
+.txt_desc h2 span {display:block;font-weight:200;font-size:20px;line-height:27px;}
+.txt_desc p {padding-top:20px;font-size:16px;line-height:24px}
