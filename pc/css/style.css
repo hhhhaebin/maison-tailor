@@ -61,9 +61,8 @@ img {vertical-align:top}
 .footer .copyright {color:#9b9b9b;font-size:12px}
 
 /* 메인 */
-.main {}
 .main .header {position:absolute;left:0;z-index:1;background-image:linear-gradient(to bottom, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0))}
-.main .header .service .menu  {color:#fff}
+.main .header .menu .link {color:#fff}
 .visual {position:relative;padding-top:64px;height:496px;box-sizing:border-box;background:url(https://www.saraminimage.co.kr/sri/company/information/temp/@bg_top_sample.png);background-repeat:no-repeat;background-position:50% 50%;background-size:cover}
 .visual:before {position:absolute;top:0;left:0;right:0;bottom:0;background:#0f2438;opacity:.8;content:""}
 .visual .desc_info {overflow:hidden;padding-top:117px;width:600px;height:228px;color:#fff}
@@ -73,8 +72,10 @@ img {vertical-align:top}
 .visual .gallery_main {overflow:hidden;position:absolute;top:49px;right:120px;width:400px;height:296px}
 .visual .gallery_main .swiper-slide {width:400px;height:296px}
 .visual .gallery_thumbs {overflow:hidden;position:absolute;top:96px;right:0;width:48px;height:256px}
-.visual .gallery_thumbs .swiper-slide {width:48px;box-shadow:0 2px 6px 0 rgba(0, 0, 0, .72);opacity:.3}
-.visual .gallery_thumbs .swiper-slide-thumb-active {opacity:1}
+.visual .gallery_thumbs .swiper-slide {width:48px;box-shadow:0 2px 6px 0 rgba(0, 0, 0, .72)}
+.visual .gallery_thumbs .swiper-slide:before {position:absolute;top:0;left:0;z-index:-1;width:48px;height:48px;background:#fff;content:""}
+.visual .gallery_thumbs .swiper-slide img {opacity:.3}
+.visual .gallery_thumbs .swiper-slide-thumb-active img {opacity:1}
 
 .wrap_title {position:relative;box-sizing:border-box;background:url(https://www.saraminimage.co.kr/sri/company/information/temp/@bg_top_sample.png);background-repeat:no-repeat;background-position:50% 50%;background-size:cover}
 .wrap_title:before {position:absolute;top:0;left:0;right:0;bottom:0;background:#0f2438;opacity:.8;content:""}
