@@ -1,7 +1,8 @@
 
-###PC 
-    + css 
-       + style.css
-    + main.html 메인
-    + recommend.html 추천
-    + store.html 스토어 (작업중)
+### PC 
++ css 
+    - style.css
+    
+1. main.html 메인
+2. recommend.html 추천
+3. store.html 스토어 (작업중)
