@@ -13,19 +13,35 @@
     <div class="header">
         <div class="wrap_head">
             <h1 class="logo"><a href="/"><span class="blind">MAISON TAILOR</span></a></h1>
-            <div class="service">
-                <ul class="menu">
+            <div class="gnb">
+                <ul class="service_menu">
                     <li><a href="##" class="link">홈</a></li>
                     <li><a href="##" class="link">스토어</a></li>
                     <li><a href="##" class="link">장바구니</a></li>
                 </ul>
-                <div class="my">
-                    <a href="#" class="link search"><span class="blind">검색</span></a>
-                    <a href="#" class="link mypage"><span class="blind">MY PAGE</span></a>
+                <div class="my_menu">
+                    <div class="wrap_search"><!-- 검색 버튼 클릭시 on 클래스 추가 -->
+                        <button type="button" class="btn_search"><span class="blind">검색</span></button>
+                        <div class="layer_search">
+                            <input type="search" class="inp_search" placeholder="찾는 제품이 있으신가요?">
+                        </div>
+                    </div>
+                    <div class="wrap_layer"><!-- MY 버튼 클릭시 on 클래스 추가 -->
+                        <a href="#" class="btn_mypage"><span class="blind">MY PAGE</span></a>
+                        <div class="layer_menu">
+                            <ul class="menu">
+                                <li><a href="##">주문내역</a></li>
+                                <li><a href="##">찜목록</a></li>
+                                <li><a href="##">문의내역</a></li>
+                                <li><a href="##">스타일 문답</a></li>
+                                <li><a href="##">내정보</a></li>
+                            </ul>
+                            <a href="#" class="logout">로그아웃</a>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
-        
     </div>
     <div class="container">
         <div class="visual">
@@ -52,10 +68,9 @@
                 </div>
             </div>
         </div>
-
-        <div class="box_my_product">
+        <div class="section_pick">
             <div class="inner">
-                <h2 class="tit"><span class="txt"><b class="emph">손봉경</b>님께서 선택하신 문항입니다.</span> 당신에게 알맞은 상품은?</h2>
+                <h2 class="tit"><b class="emph">손봉경</b>님께서 선택하신 문항입니다.</h2>
                 <div class="tags">
                     <a href="#" class="link_tag"># 거실,주방 외 2곳</a>
                     <a href="#" class="link_tag"># 2인가구</a>
@@ -63,12 +78,11 @@
                     <a href="#" class="link_tag"># Balanced</a>
                     <a href="#" class="link_tag"># 거실,주방 외 2곳</a>
                     <a href="#" class="link_tag"># 2인가구</a>
-                    <a href="#" class="link_tag"># Zen, Classic, Artistic</a>
                 </div>
                 <a href="##" class="link_detail">자세히 보기</a>
             </div>
         </div>
-
+        <div class="section_title">당신에게 알맞은 상품은?</div>
         <div class="section_list livingroom">
             <div class="inner">
                 <h2 class="tit_comm">거실 <span class="small">Living room</span></h2>
@@ -463,18 +477,20 @@
     </div>
     <div class="footer">
         <div class="inner">
-            <a href="#" class="logo"><span class="blind">MAISON TAILOR</span></a>
-            <ul class="direct_menu">
-                <li><a href="##">서비스 소개</a></li>
-                <li><a href="##">고객지원</a></li>
-                <li><a href="##">이용약관</a></li>
-                <li><a href="##">FAQ</a></li>
-                <li><a href="##">개인정보 처리방침</a></li>
-                <li><a href="##">협업 및 제휴</a></li>
-                <li><a href="##">공지사항</a></li>
-                <li><a href="##">Instagram</a></li>
-            </ul>
-            <p class="copyright">© 2019 메종테일러. All rights reserved.</p>
+            <div class="sns_menu">
+                <a href="##" class="facebook"><span class="blind">Facebook</span></a>
+                <a href="##" class="instagram"><span class="blind">Instagram</span></a>
+            </div>
+            <div class="etc_menu">
+                <a href="##">ABOUT US</a>
+                <a href="##">FAQ</a>
+                <a href="##">CONTACT</a>
+            </div>
+            <div class="copyright">
+                <p class="txt">© 2019 메종테일러. All rights reserved.</p>
+                <a href="#">이용약관</a>
+                <a href="#">개인정보 처리방침</a>
+            </div>
         </div>
     </div>
 </div>
