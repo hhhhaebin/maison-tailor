@@ -81,13 +81,14 @@ img {vertical-align:top}
 .inner:after {display:table;table-layout:fixed;clear:both;content:""}
 
 /* 타이틀 */
-.wrap_title {position:relative;box-sizing:border-box;background:#f6f6f6;background-repeat:no-repeat;background-position:50% 50%;background-size:cover}
-.wrap_title:before {position:absolute;top:0;left:0;right:0;bottom:0;background:#0f2438;opacity:.8;content:""}
+.wrap_title {position:relative;background:#f6f6f6}
+.wrap_title .bg {position:absolute;top:0;left:0;right:0;bottom:0;background-repeat:no-repeat;background-position:50% 50%;background-size:cover;content:""}
+.wrap_title .bg:before {position:absolute;top:0;left:0;right:0;bottom:0;background:#0f2438;opacity:.8;content:""}
 .wrap_title .inner {display:table;height:320px;text-align:center}
 .wrap_title .tit_category {display:table-cell;padding:0 200px;color:#fff;font-weight:600;font-size:40px;line-height:48px;vertical-align:middle}
 .wrap_title .tit_category .small {display:block;font-weight:200;font-size:12px;line-height:18px}
 .wrap_title .tit_category .en {display:block;font-size:20px;line-height:27px}
-.wrap_title .tit_category .txt_result {display:block;font-size:16px;line-height:24px}
+.wrap_title .tit_category .txt_result {display:block;color:#4a4a4a;font-size:16px;line-height:24px}
 .wrap_title .tit_category .keyword {color:#00a2e1;font-family:AppleSDGothicNeo,"Malgun Gothic", dotum, sans-serif}
 .wrap_title .btn {position:absolute;top:50%;margin-top:-28px;min-width:110px;color:#fff;font-size:24px;line-height:36px;opacity:.7}
 .wrap_title .btn:hover {opacity:1}
