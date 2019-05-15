@@ -3,9 +3,16 @@
 + css 
     + style.css
 
-1. main.html 메인
-2. recommend.html 추천
-3. store.html 스토어 (작업중)
+**완료**
+- main.html
+- recommed_list.html
+- brand_list.html
+- search_list.html
+
+**작업중**
+- store.html
+- product_detail.html
+
 
 ### Mobile
 + css 
