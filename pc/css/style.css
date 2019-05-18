@@ -1,5 +1,6 @@
 @charset "utf-8";
-@import url('https://fonts.googleapis.com/css?family=Nunito+Sans:200,400,600,700');
+@import url(https://spoqa.github.io/spoqa-han-sans/css/SpoqaHanSans-kr.css);
+@import url(https://fonts.googleapis.com/css?family=Nunito+Sans:200,400,600,700);
 
 /* reset */
 body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,code,form,fieldset,legend,textarea,p,blockquote,th,td,input,select,textarea,button {margin:0;padding:0}
@@ -10,12 +11,15 @@ blockquote:before, blockquote:after,q:before, q:after {content:'';content:none}
 input,select,textarea,button {vertical-align:middle}
 button {border:0 none;background-color:transparent;cursor:pointer}
 body {background:#fff}
-body,th,td,input,select,textarea,button {font-size:14px;line-height:1.5;font-family:'Nunito Sans', "Malgun Gothic", dotum, gulim, sans-serif;color:#4a4a4a}
+body,th,td,input,select,textarea,button {font-size:14px;line-height:1.5;font-family:'Spoqa Han Sans', sans-serif;color:#4a4a4a}
 a {color:#4a4a4a;text-decoration:none}/*
 a:active, a:hover {text-decoration:underline} */
 address,caption,cite,code,dfn,em,var {font-style:normal;font-weight:normal}
 img {vertical-align:top}
 
+
+/* font-family:'Nunito Sans', "Malgun Gothic", dotum, gulim, sans-serif;
+font-family: 'Spoqa Han Sans', 'Spoqa Han Sans JP', 'Sans-serif';/*
 /* 레이아웃 */
 .wrapper {min-width:1120px}
 .header {width:100%}
@@ -50,25 +54,25 @@ img {vertical-align:top}
 .header .layer_menu .menu a {display:block;padding:7px 20px}
 .header .layer_menu .menu a:hover {text-decoration:underline}
 .header .layer_menu .logout {display:block;margin:0 15px;padding:7px 5px;border-top:1px solid #f6f6f6;color:#9b9b9b}
-.header .wrap_category {overflow:hidden;height:64px;background:#f6f6f6}
+.header .wrap_category {overflow:hidden;min-height:64px;background:#f6f6f6}
 .header .category {padding-right:54px}
 .header .category:after {display:table;clear:both;content:"";table-layout:fixed}
 .header .category li {float:left;margin-right:18px}
 .header .category .link_cate {display:block;height:64px;padding:16px 0 19px;border-bottom:4px solid #f6f6f6;box-sizing:border-box;font-weight:600;font-size:20px;line-height:29px;text-decoration:none}
 .header .category .link_cate:hover,
 .header .category .on .link_cate {border-color:currentColor;color:#00a2e1}
-.header .category .link_cate .en {color:#9b9b9b;font-weight:200;font-size:16px}
+.header .category .link_cate .en {color:#9b9b9b;font-weight:200;font-size:16px;font-family:'Nunito Sans', sans-serif}
 .header .category .link_cate:hover .en,
 .header .category .on .en {color:#00a2e1}
-.header .btn_more {position:absolute;top:0;right:0;padding:25px 24px 23px}
-.header .btn_more:before {display:block;width:4px;height:16px;background:red;content:""}
+.header .btn_more {position:absolute;top:0;right:0;padding:21px 15px 19px}
+.header .btn_more:before {display:block;width:24px;height:24px;background:url(../images/ico_more.png);content:""}
 .footer {padding-top:44px;height:224px;box-sizing:border-box;background:#1b1e21;text-align:center}
 .footer .sns_menu {overflow:hidden}
 .footer .sns_menu a {display:inline-block;padding:10px 8px;vertical-align:top}
 .footer .sns_menu a:before {display:block;width:24px;height:24px;background:url(../images/ico_sns.png) no-repeat;content:""}
 .footer .sns_menu .facebook:before {background-position:0 0}
 .footer .sns_menu .instagram:before {background-position:-24px 0}
-.footer .etc_menu {overflow:hidden;padding:10px 0 13px}
+.footer .etc_menu {overflow:hidden;padding:10px 0 13px;font-family:'Nunito Sans', sans-serif}
 .footer .etc_menu a {display:inline-block;padding:5px 9px;color:#fff;font-size:16px;line-height:22px;vertical-align:top}
 .footer .etc_menu a:hover {text-decoration:underline}
 .footer .copyright {color:#9b9b9b;font-size:12px}
@@ -77,7 +81,7 @@ img {vertical-align:top}
 
 /* 공통 */
 .blind {overflow:hidden;position:absolute;width:1px;height:1px;clip:rect(1px, 1px, 1px, 1px)}
-.inner {position:relative;margin:0 auto;padding:0 8px;width:1120px;box-sizing:border-box}
+.inner {position:relative;margin:0 auto;padding:0 8px;width:1124px;box-sizing:border-box}
 .inner:after {display:table;table-layout:fixed;clear:both;content:""}
 
 /* 타이틀 */
@@ -86,8 +90,8 @@ img {vertical-align:top}
 /* .wrap_title .bg:before {position:absolute;top:0;left:0;right:0;bottom:0;background:#0f2438;opacity:.8;content:""} */
 .wrap_title .title {display:table;width:100%;height:320px;text-align:center}
 .wrap_title .tit_category {display:table-cell;padding:0 200px;color:#fff;font-weight:600;font-size:40px;line-height:48px;vertical-align:middle}
-.wrap_title .tit_category .small {display:block;font-weight:200;font-size:12px;line-height:18px}
-.wrap_title .tit_category .en {display:block;font-size:20px;line-height:27px}
+.wrap_title .tit_category .small {display:block;font-weight:200;font-size:12px;font-family:'Nunito Sans', sans-serif;line-height:18px}
+.wrap_title .tit_category .en {display:block;font-size:20px;font-family:'Nunito Sans', sans-serif;line-height:27px}
 .wrap_title .tit_category .txt_result {display:block;color:#4a4a4a;font-size:16px;line-height:24px}
 .wrap_title .tit_category .keyword {color:#00a2e1;font-family:AppleSDGothicNeo,"Malgun Gothic", dotum, sans-serif}
 .wrap_title .btn {position:absolute;top:50%;margin-top:-28px;min-width:110px;color:#fff;font-size:24px;line-height:36px;opacity:.7}
@@ -116,7 +120,7 @@ img {vertical-align:top}
 .visual {position:relative;height:416px;box-sizing:border-box;background:url(../images/main_banner.png);background-repeat:no-repeat;background-position:50% 50%;background-size:cover}
 /*.visual:before {position:absolute;top:0;left:0;right:0;bottom:0;background:#0f2438;opacity:.8;content:""} */
 .visual .desc_info {overflow:hidden;padding-top:117px;width:600px;height:228px;color:#fff}
-.visual .desc_info .tit_desc {font-weight:600;font-size:40px;line-height:54px;letter-spacing:1px}
+.visual .desc_info .tit_desc {font-weight:600;font-family:'Nunito Sans', sans-serif;font-size:40px;line-height:54px;letter-spacing:1px}
 .visual .desc_info .tit_desc>span {display:block;font-weight:200;font-size:20px;line-height:27px}
 .visual .desc_info .txt_desc {padding-top:20px;font-size:16px;line-height:24px}
 .visual .gallery_main {overflow:hidden;position:absolute;top:60px;right:120px;width:400px;height:296px}
@@ -127,7 +131,9 @@ img {vertical-align:top}
 .visual .gallery_thumbs .swiper-slide img {opacity:.3}
 .visual .gallery_thumbs .swiper-slide-thumb-active img {opacity:1}
 
-.section_title {margin:0 auto;padding:26px 8px 32px;width:1104px;font-size:36px;line-height:54px}
+.section_title {margin:0 auto;padding:26px 8px 32px;width:1104px;font-family:'Spoqa Han Sans', sans-serif;font-size:36px;line-height:54px}
+.section_title.center {text-align:center}
+
 .section_pick {padding:22px 8px;background:#f6f6f6}
 .section_pick .tit {display:block;font-weight:normal;font-size:16px;line-height:24px}
 .section_pick .tit .emph {color:#00a2e1}
@@ -136,12 +142,18 @@ img {vertical-align:top}
 .section_pick .link_detail {position:absolute;bottom:0;right:8px;padding:5px;width:112px;height:32px;border:1px solid #979797;border-radius:4px;box-sizing:border-box;color:#9b9b9b;font-weight:bold;font-size:14px;line-height:22px;text-align:center}
 
 .tit_comm {padding-left:18px;border-left:4px solid #e0e0e0;font-size:24px;line-height:36px}
-.tit_comm .small {display:block;font-size:16px;line-height:22px;font-weight:normal}
+.tit_comm .small {display:block;font-family:'Nunito Sans', sans-serif;font-size:16px;line-height:22px;font-weight:normal}
 .tit_comm.noline {padding-left:0;border:0}
 
 .btn_like {z-index:1;padding:14px}
 .btn_like:before {display:block;width:29px;height:28px;background:url(../images/ico_favor.png) no-repeat;content:""}
 .btn_like.on:before {background-position:-29px 0}
+
+.btn_share {z-index:1;padding:14px}
+.btn_share:before {display:block;width:36px;height:36px;background:url(../images/ico_share.png) no-repeat;content:""}
+
+.btn_comm {display:inline-block;width:100%;height:52px;border-radius:5px;color:#4a4a4a;font-size:16px;font-weight:bold;line-height:52px;vertical-align:top;background:#e0e0e0;text-align:center} 
+.btn_comm.primary {color:#fff;background:#00a2e1}
 
 .section_list {position:relative;padding-bottom:90px}
 .section_list.history {padding-bottom:122px}
@@ -152,8 +164,8 @@ img {vertical-align:top}
 .section_list .list_comm .link_box {display:block;margin:0 auto;width:262px;box-shadow:0 1px 3px 0 rgba(0, 0, 0, .18)}
 .section_list .list_comm .thumb {display:block;height:238px}
 .section_list .list_comm .cont {display:block;padding:8px 14px;height:84px;box-sizing:border-box;font-size:16px;line-height:20px;background:#fff}
-.section_list .list_comm .cont .tit {display:block;overflow:hidden;line-height:24px;text-overflow:ellipsis;white-space:nowrap}
-.section_list .list_comm .cont .txt {display:block;overflow:hidden;font-size:12px;text-overflow:ellipsis;white-space:nowrap}
+.section_list .list_comm .cont .tit {display:block;overflow:hidden;font-family:'Nunito Sans', sans-serif;line-height:24px;text-overflow:ellipsis;white-space:nowrap}
+.section_list .list_comm .cont .txt {display:block;overflow:hidden;font-family:'Nunito Sans', sans-serif;font-size:12px;text-overflow:ellipsis;white-space:nowrap}
 .section_list .list_comm .cont .price {display:block;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
 .section_list .list_comm .btn_like {position:absolute;top:0;right:9px}
 .section_list .btn_slide {display:none;position:absolute;top:50%;z-index:1;width:60px;height:60px;background:url(../images/btn_slide.png) no-repeat}
@@ -163,16 +175,16 @@ img {vertical-align:top}
 .section_list .link_more {position:absolute;top:29px;right:8px;color:#00a2e1;font-weight:bold;font-size:20px;line-height:29px}
 
 .section_brand {padding:48px 0 64px;width:100%;background:#f6f6f6;text-align:center}
-.section_brand .tit_brand {font-size:28px;line-height:38px}
-.section_brand .tit_brand .txt {display:block;padding-top:2px;font-weight:normal;font-size:16px;line-height:24px}
+.section_brand .tit_brand {font-size:28px;font-family:'Nunito Sans', sans-serif;line-height:38px}
+.section_brand .tit_brand .txt {display:block;padding-top:2px;font-family:'Spoqa Han Sans', sans-serif;font-weight:normal;font-size:16px;line-height:24px}
 .section_brand .list_brand {display:inline-block;padding-top:48px;margin:0 -4px;vertical-align:top}
 .section_brand .list_brand li {float:left;padding:0 22px}
 .section_brand .list_brand .link_brand {display:block;width:140px;text-decoration:none}
 .section_brand .list_brand .link_brand:hover .thumb {border-color:#00a2e1}
 .section_brand .list_brand .thumb {display:block;overflow:hidden;position:relative;border:4px solid #fff;width:140px;height:140px;border-radius:50%;box-sizing:border-box;box-shadow:0 1px 6px 0 rgba(0, 0, 0, .27)}
 .section_brand .list_brand .thumb:before {position:absolute;top:-4px;left:-4px;width:140px;height:140px;background:rgba(0, 0, 0, .3);content:""}
-.section_brand .list_brand .thumb .txt {position:absolute;top:-4px;left:-4px;width:140px;height:140px;color:#fff;font-weight:bold;font-size:20px;line-height:140px}
-.section_brand .list_brand .cont {display:block;padding-top:20px}
+.section_brand .list_brand .thumb .txt {position:absolute;top:-4px;left:-4px;width:140px;height:140px;color:#fff;font-family:'Nunito Sans', sans-serif;font-weight:bold;font-size:20px;line-height:140px}
+.section_brand .list_brand .cont {display:block;padding-top:20px;font-family:'Nunito Sans', sans-serif}
 .section_brand .list_brand .cont .tit {display:block;font-size:16px;line-height:22px}
 .section_brand .list_brand .cont .txt {display:block;padding-top:10px;font-size:12px;line-height:16px}
 
@@ -181,13 +193,13 @@ img {vertical-align:top}
 .section_news .wrap_news:before {position:absolute;top:0;left:0;right:0;bottom:0;background:rgba(27, 30, 33, 0.7);content:""}
 .section_news .wrap_news .inner {padding:124px 0 63px;height:368px;box-sizing:border-box}
 .section_news .wrap_news .link_news {float:left;padding:0 30px 0 25px;width:560px;box-sizing:border-box;color:#fff}
-.section_news .wrap_news .category {display:block;overflow:hidden;height:27px;font-size:20px;line-height:27px;text-overflow:ellipsis;white-space:nowrap}
-.section_news .wrap_news .tit {display:block;overflow:hidden;padding-top:4px;max-height:76px;font-size:28px;line-height:38px}
+.section_news .wrap_news .category {display:block;overflow:hidden;height:27px;font-size:20px;font-family:'Nunito Sans', sans-serif;line-height:27px;text-overflow:ellipsis;white-space:nowrap}
+.section_news .wrap_news .tit {display:block;overflow:hidden;padding-top:4px;max-height:76px;font-size:28px;font-family:'Nunito Sans', sans-serif;line-height:38px}
 .section_news .wrap_news .txt {overflow:hidden;height:112px;font-size:16px}
 .section_news .list_news {padding:32px 0 34px}
 .section_news .list_news li {position:relative;float:left;margin-left:20px;width:356px;height:160px;box-sizing:border-box}
 .section_news .list_news li:first-child {margin-left:0}
-.section_news .list_news .link_news {position:absolute;top:0;left:0;padding:63px 16px 0 16px;width:356px;height:160px;box-sizing:border-box;text-decoration:none;background:rgba(0, 0, 0, .5);color:#fff;box-shadow:0 1px 6px 0 rgba(0, 0, 0, .5)}
+.section_news .list_news .link_news {position:absolute;top:0;left:0;padding:63px 16px 0 16px;width:356px;height:160px;box-sizing:border-box;box-shadow:0 1px 6px 0 rgba(0, 0, 0, .5);color:#fff;font-family:'Nunito Sans', sans-serif;text-decoration:none;background:rgba(0, 0, 0, .5)}
 .section_news .list_news .category {display:block;overflow:hidden;height:22px;font-weight:200;font-size:16px;line-height:22px;text-overflow:ellipsis;white-space:nowrap}
 .section_news .list_news .tit {display:block;overflow:hidden;padding-top:5px;max-height:54px;font-size:20px;line-height:27px}
 
@@ -200,8 +212,8 @@ img {vertical-align:top}
 .section_rank .list_rank .link_box:before {position:absolute;top:0;left:0;width:60px;height:60px;color:#fff;font-weight:200;font-style:italic;font-size:24px;line-height:60px;text-align:center;background:rgba(0, 162, 225, 0.8);counter-increment:rank;content:counter(rank)}
 .section_rank .list_rank .thumb {display:block;height:238px}
 .section_rank .list_rank .cont {position:absolute;left:0;bottom:0;padding:14px;width:100%;height:96px;box-sizing:border-box;color:#fff;font-size:12px;line-height:17px}
-.section_rank .list_rank .cont .tit {display:block;overflow:hidden;font-size:16px;line-height:24px;text-overflow:ellipsis;white-space:nowrap}
-.section_rank .list_rank .cont .txt {display:block;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.section_rank .list_rank .cont .tit {display:block;overflow:hidden;font-size:16px;font-family:'Nunito Sans', sans-serif;line-height:24px;text-overflow:ellipsis;white-space:nowrap}
+.section_rank .list_rank .cont .txt {display:block;overflow:hidden;font-family:'Nunito Sans', sans-serif;text-overflow:ellipsis;white-space:nowrap}
 .section_rank .list_rank .cont .price {display:block;overflow:hidden;padding-top:4px;text-overflow:ellipsis;white-space:nowrap}
 
 .section_category {padding:52px 0 80px}
@@ -215,14 +227,87 @@ img {vertical-align:top}
 .section_category .icon_type .link_box {width:168px;height:168px;text-align:center}
 .section_category .icon_type .link_box>img {position:absolute;top:0;left:0;z-index:0}
 
-
-
+/* 상품 상세 */
 .detail_view {background:#f6f6f6}
-.section_detail {padding:96px 0 52px;background:#fff}
+.section_detail {background:#fff}
+.section_detail .inner {padding:96px 0 52px}
 .section_detail .photo {position:relative;float:left;width:638px;}
-.section_detail .photo .btn_like {position:absolute;top:0;right:9px;padding:14px}
+.section_detail .photo .btns {position:absolute;top:0;right:0;z-index:1;font-size:0}
+.section_detail .photo button {display:inline-block;padding:12px 10px 10px;width:88px;height:88px;color:#fff;font-size:16px;line-height:26px;vertical-align:top;background:rgba(0,0,0,.2)}
+.section_detail .photo button:before {margin:0 auto}
+.section_detail .photo .btn_like:before {width:36px;height:36px;background-image:url(../images/ico_favor2.png)}
+.section_detail .photo .btn_like.on:before {background-position:0 0}
 .section_detail .product_photo {overflow:hidden;height:580px}
 .section_detail .product_photo .swiper-slide {height:580px}
 .section_detail .product_thumbs {overflow:hidden;margin:16px 0 0;width:544px;height:120px}
 .section_detail .product_thumbs .swiper-slide {width:120px}
-.section_detail .info {overflow:hidden}
+.section_detail .info {overflow:hidden;position:relative;padding:0 0 60px 20px;height:580px;box-sizing:border-box}
+.section_detail .cont {padding-bottom:20px;font-weight:bold}
+.section_detail .cont .txt {display:block;overflow:hidden;font-size:20px;font-family:'Nunito Sans', sans-serif;line-height:27px;text-overflow:ellipsis;white-space:nowrap}
+.section_detail .cont .tit {display:block;overflow:hidden;max-height:162px;font-size:40px;font-family:'Nunito Sans', sans-serif;line-height:54px}
+.section_detail .cont .price {display:block;font-size:28px;line-height:38px;text-overflow:ellipsis;white-space:nowrap}
+.section_detail .desc {overflow:hidden;height:271px}
+.section_detail .desc .txt_info {font-size:16px;line-height:24px}
+.section_detail .desc .txt_desc {padding-top:16px;font-size:16px;line-height:22px;word-break:break-all}
+.section_detail .desc .link_origin {display:block;margin-top:8px;padding:12px;height:64px;border:1px solid currentColor;box-sizing:border-box;color:#00a2e1;font-size:16px;font-weight:bold;line-height:22px;text-align:center}
+.section_detail .desc .link_origin:before {display:inline-block;margin-right:4px;width:24px;height:24px;background:url(../images/ico_link.png) no-repeat;vertical-align:top;content:""}
+.section_detail .desc .link_origin .url {display:block;font-size:12px;font-family:'Nunito Sans', sans-serif;font-weight:normal;line-height:16px}
+.section_detail .desc .wrap_btn {position:absolute;bottom:0;left:20px}
+.section_detail .desc .wrap_btn .btn_comm {float:left;width:220px}
+.section_detail .desc .wrap_btn .btn_comm:first-of-type {margin-right:10px}
+.section_detail .btn_back {position:absolute;top:25px;left:0;width:140px;height:56px;color:#9b9b9b;font-size:16px;line-height:56px;text-align:center;background:#f6f6f6}
+.section_detail .btn_back:before {display:inline-block;margin:17px 8px 0 0;width:24px;height:24px;vertical-align:top;background:url(../images/ico_back.png) no-repeat;content:""}
+.section_help .tbl_help {table-layout:fixed;margin-top:22px;width:100%;border-collapse:collapse;font-size:16px;background:#fff}
+.section_help .tbl_help th {padding:12px 0;font-weight:normal}
+.section_help .tbl_help td {border-top:1px solid #f6f6f6;text-align:center}
+.section_help .tbl_help .summary {overflow:hidden;position:relative;padding:18px 0;font-size:0}
+.section_help .tbl_help .summary>span,
+.section_help .tbl_help .summary>strong {display:inline-block;vertical-align:top;font-size:16px}
+.section_help .tbl_help .summary .number {width:74px}
+.section_help .tbl_help .summary .status {width:208px}
+.section_help .tbl_help .summary .status.answer {color:#00a2e1;font-weight:bold}
+.section_help .tbl_help .summary .tit {overflow:hidden;padding:0 20px;width:450px;box-sizing:border-box;text-align:left;text-overflow:ellipsis;white-space:nowrap}
+.section_help .tbl_help .summary .tit.lock:before {display:inline-block;margin-right:10px;width:24px;height:24px;vertical-align:top;background:url(../images/ico_lock.png) no-repeat;content:""}
+.section_help .tbl_help .summary .name {overflow:hidden;width:208px;text-overflow:ellipsis;white-space:nowrap}
+.section_help .tbl_help .summary .date {width:156px}
+.section_help .tbl_help .summary .btn_open {position:absolute;top:0;left:0;width:100%;height:100%}
+.section_help .tbl_help .text {display:none;padding:0 22px;border-top:1px solid #f6f6f6;text-align:left}
+.section_help .tbl_help .text .question {padding:16px 0}
+.section_help .tbl_help .text .answer {padding-bottom:16px}
+.section_help .tbl_help .text .answer:before {display:inline-block;padding-right:14px;vertical-align:top;font-weight:bold;content:"ㄴRE :메종 테일러"}
+.section_help .tbl_help .text.open {display:block}
+.section_refund {padding:74px 0 156px}
+.section_refund .txt_info {padding-top:16px;font-size:16px;line-height:22px}
+
+/* 주문 요청 */
+.request {padding:22px 0;}
+.request .section_title {padding-bottom:10px}
+.section_request {margin:0 auto;width:732px}
+.section_request .step {overflow:hidden;padding:0 0 24px 24px;border-bottom:1px solid #f6f6f6;text-align:center}
+.section_request .step li {display:inline-block;color:#9b9b9b;font-size:16px;line-height:24px;vertical-align:top}
+.section_request .step li:not(:first-child):before {display:inline-block;margin:0 10px;width:24px;height:24px;vertical-align:top;background:url(../images/ico_step.png) no-repeat;content:""}
+.section_request .step .on {color:#00a2e1;font-weight:bold}
+.section_request .details {padding:22px 0;}
+.section_request .details .photo {float:left;padding-left:8px}
+.section_request .info {overflow:hidden;position:relative;padding-left:22px;height:320px}
+.section_request .cont {padding-bottom:15px;font-weight:bold}
+.section_request .cont .txt {display:block;overflow:hidden;font-weight:normal;font-size:16px;font-family:'Nunito Sans', sans-serif;line-height:22px;text-overflow:ellipsis;white-space:nowrap}
+.section_request .cont .tit {display:block;overflow:hidden;max-height:76px;font-size:28px;font-family:'Nunito Sans', sans-serif;line-height:38px}
+.section_request .cont .price {display:block;font-size:20px;line-height:27px;text-overflow:ellipsis;white-space:nowrap}
+.section_request .quantity {padding:2px 0 15px;font-size:16px;line-height:24px}
+.section_request .quantity .num {display:inline-block;position:relative;margin-left:16px;padding:0 30px;height:24px;vertical-align:top}
+.section_request .quantity .num input {display:inline-block;width:32px;height:22px;border:0;border-bottom:2px solid #d8d8d8;vertical-align:top}
+.section_request .quantity button {position:absolute;top:0;width:24px;height:24px;background:red;}
+.section_request .quantity .btn_down {left:0;}
+.section_request .quantity .btn_up {right:0}
+.section_request .desc {overflow:hidden}
+.section_request .desc .txt_info {height:30px;color:#00a2e1;font-size:12px;line-height:30px;text-align:center;background:#f6f6f6}
+.section_request .desc .link_origin {display:block;margin-top:8px;padding:12px;height:64px;border:1px solid currentColor;box-sizing:border-box;color:#00a2e1;font-size:16px;font-weight:bold;line-height:22px;text-align:center}
+.section_request .desc .link_origin:before {display:inline-block;margin-right:4px;width:24px;height:24px;background:url(../images/ico_link.png) no-repeat;vertical-align:top;content:""}
+.section_request .desc .link_origin .url {display:block;font-size:12px;font-family:'Nunito Sans', sans-serif;font-weight:normal;line-height:16px}
+
+
+.section_request .options {padding-bottom:16px}
+.section_request .box_add {padding:21px 0 18px;height:144px;box-sizing:border-box;background:#f6f6f6;text-align:center}
+.section_request .box_add .btn_add {padding:15px;font-size:16px;line-height:24px}
+.section_request .box_add .btn_add:before {display:block;margin:0 auto 15px;width:36px;height:36px;background:url(../images/ico_add.png) no-repeat;content:""}

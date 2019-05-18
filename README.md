@@ -8,11 +8,11 @@
 - recommed_list.html
 - brand_list.html
 - search_list.html
+- product_detail.html
 
 **작업중**
 - store.html
-- product_detail.html
-
+- request.html
 
 - - -
 
