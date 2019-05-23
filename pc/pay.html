@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="ko">
 <head>
@@ -45,38 +46,26 @@
             </div>
         </div>
     </div>
-    <div class="container cart">
-        <h2 class="tit_complete">주문요청이 성공적으로 전달되었습니다!</h2>
-        <p class="txt_complete">고객님의 주문요청 확인후, 해당상품의 결제를 도와드리겠습니다.<br>최대 24시간이 소요됩니다.</p>
-        <div class="section_product complete">
-            <div class="details">
-                <div class="photo">
-                    <a href="#"><img src="https://dummyimage.com/118x118/ffffbb/7c7e94.png" width="118" height="118" alt=""></a>
-                </div>
-                <div class="info">
-                    <div class="cont">
-                        <strong class="tit"><a href="#">Yogarasa Gandhi QqkKjJpP QqkKjJpP QqkKjJpP QqkKjJpP</a></strong>
-                        <span class="price">$ 3,000</span>
-                    </div>
-                    <div class="quantity">수량 : 1개 </div>
-                </div>
-                <div class="options">
-                    <ul>
-                        <li><strong class="tit_option">01.색상</strong> RED</li>
-                        <li><strong class="tit_option">02.사이즈</strong> M</li>
-                    </ul> 
-                </div>
+    <div class="container pay">
+        <h2 class="section_title center">결제하기</h2>
+        <div class="section_pay">
+            <div class="order_info">
+                <span class="date">2019.02.15</span>
+                <span class="number">주문번호 : 20103012</span>
             </div>
             <div class="details">
                 <div class="photo">
-                    <a href="#"><img src="https://dummyimage.com/118x118/ffffbb/7c7e94.png" width="118" height="118" alt=""></a>
+                    <a href="#"><img src="https://dummyimage.com/136x136/ffffbb/7c7e94.png" width="136" height="136" alt=""></a>
                 </div>
                 <div class="info">
                     <div class="cont">
+                        <span class="txt"><a href="#">Xing Zheng QqkKjJpP QqkKjJpP QqkKjJpP QqkKjJpP</a></span>
                         <strong class="tit"><a href="#">Yogarasa Gandhi QqkKjJpP QqkKjJpP QqkKjJpP QqkKjJpP</a></strong>
                         <span class="price">$ 3,000</span>
                     </div>
-                    <div class="quantity">수량 : 1개 </div>
+                    <div class="quantity">
+                        수량 : 1개
+                    </div>
                 </div>
                 <div class="options">
                     <ul>
@@ -84,12 +73,69 @@
                         <li><strong class="tit_option">02.사이즈</strong> M</li>
                     </ul> 
                 </div>
+                <button type="button" class="btn_delete"><span class="blind">삭제</span></button>
+            </div>
+            <div class="cont_pay">
+                <strong class="tit_pay">배송정보</strong>
+                <div class="item_input">
+                    <label for="name" class="tit">수령인</label>
+                    <div class="tf"><input type="text" id="name" class="inp" value="손봉경"></div>
+                </div>
+                <div class="item_input">
+                    <label for="phone" class="tit">연락처</label>
+                    <div class="tf"><input type="text" id="phone" class="inp" value="010-1234-5678"></div>
+                </div>
+                <div class="item_input">
+                    <label for="address" class="tit">주소</label>
+                    <div class="tf search">
+                        <input type="text" id="address" class="inp" value="010-1234-5678">
+                        <button type="button" class="btn_comm dark">주소검색</button>
+                    </div>
+                    <div class="tf address">
+                        <textarea class="inp">인천</textarea>
+                    </div>
+                    <div class="tf address">
+                        <input type="text" class="inp" value="어딘가">
+                    </div>
+                </div>
+                <div class="item_input">
+                    <label for="memo" class="tit">배송 메모</label>
+                    <div class="tf memo"><input type="text" id="memo" class="inp" value="부재시, 연락바랍니다."></div>
+                </div>
+            </div>
+            <div class="cont_pay">
+                <strong class="tit_pay">결제방법</strong>
+
+            </div>
+            <div class="save_option">
+                <button type="button" class="btn_comm primary">결제하기</button>
             </div>
         </div>
 
-        <div class="product_btn">
-            <a href="##" class="btn_comm">주문 상세내역 보기</a>
-            <a href="##" class="btn_comm primary">다른 상품 더 보러가기</a>
+        <div class="section_pay">
+            <div class="order_info">
+                <span class="date">2019.02.15</span>
+                <span class="number">주문번호 : 20103012</span>
+            </div>
+            <div class="details">
+                <div class="photo">
+                    <a href="#"><img src="https://dummyimage.com/136x136/ffffbb/7c7e94.png" width="136" height="136" alt=""></a>
+                </div>
+                <div class="info">
+                    <div class="cont">
+                        <span class="txt">현대해운</span>
+                        <strong class="tit">국제배송비</strong>
+                        <span class="price">$ 3,000</span>
+                    </div>
+                </div>
+            </div>
+            <div class="cont_pay">
+                <strong class="tit_pay">결제방법</strong>
+
+            </div>
+            <div class="save_option">
+                <button type="button" class="btn_comm primary">결제하기</button>
+            </div>
         </div>
     </div>
     <div class="footer">

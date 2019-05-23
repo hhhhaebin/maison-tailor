@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="ko">
 <head>
@@ -45,51 +46,69 @@
             </div>
         </div>
     </div>
-    <div class="container cart">
-        <h2 class="tit_complete">주문요청이 성공적으로 전달되었습니다!</h2>
-        <p class="txt_complete">고객님의 주문요청 확인후, 해당상품의 결제를 도와드리겠습니다.<br>최대 24시간이 소요됩니다.</p>
-        <div class="section_product complete">
-            <div class="details">
-                <div class="photo">
-                    <a href="#"><img src="https://dummyimage.com/118x118/ffffbb/7c7e94.png" width="118" height="118" alt=""></a>
+    <div class="container login">
+        <div class="main-content">
+            <h3 class="page-title">로그인</h3>
+            <form method="" action="" id="">
+                <div class="errors">Invalid login credentials.</div>
+                <div class="input-wrapper">
+                    <input class="input-field " type="text" value="" name="customer[email]" placeholder="이메일">
                 </div>
-                <div class="info">
-                    <div class="cont">
-                        <strong class="tit"><a href="#">Yogarasa Gandhi QqkKjJpP QqkKjJpP QqkKjJpP QqkKjJpP</a></strong>
-                        <span class="price">$ 3,000</span>
-                    </div>
-                    <div class="quantity">수량 : 1개 </div>
+                <div class="input-wrapper">
+                    <input class="input-field" type="password" name="customer[password]" placeholder="비밀번호">
                 </div>
-                <div class="options">
-                    <ul>
-                        <li><strong class="tit_option">01.색상</strong> RED</li>
-                        <li><strong class="tit_option">02.사이즈</strong> M</li>
-                    </ul> 
+                <div class="input-wrapper">
+                    <button type="submit" class="btn_login">로그인</button>
                 </div>
-            </div>
-            <div class="details">
-                <div class="photo">
-                    <a href="#"><img src="https://dummyimage.com/118x118/ffffbb/7c7e94.png" width="118" height="118" alt=""></a>
+                <div class="foot-note">
+                    <a href="#">비밀번호 찾기</a>
                 </div>
-                <div class="info">
-                    <div class="cont">
-                        <strong class="tit"><a href="#">Yogarasa Gandhi QqkKjJpP QqkKjJpP QqkKjJpP QqkKjJpP</a></strong>
-                        <span class="price">$ 3,000</span>
-                    </div>
-                    <div class="quantity">수량 : 1개 </div>
-                </div>
-                <div class="options">
-                    <ul>
-                        <li><strong class="tit_option">01.색상</strong> RED</li>
-                        <li><strong class="tit_option">02.사이즈</strong> M</li>
-                    </ul> 
+            </form>
+            <div class="new-customer">
+                <h4>처음 방문이신가요?</h4>
+                <div class="input-wrapper">
+                    <a class="input-field" href="#">서비스 시작하기</a>
                 </div>
             </div>
         </div>
 
-        <div class="product_btn">
-            <a href="##" class="btn_comm">주문 상세내역 보기</a>
-            <a href="##" class="btn_comm primary">다른 상품 더 보러가기</a>
+
+
+
+
+        <div class="main-content">
+            <h3 class="page-title">고객 정보</h3>
+            <p class="sub_text">로그인에 사용할 이메일과 비밀번호를 입력해주세요.</p>
+    
+            <form method="" action="" id="">
+                <div class="input-wrapper">
+                    <input class="input-field " type="text" value="" name="customer[email]" placeholder="이메일">
+                </div>
+                <div class="input-wrapper">
+                    <input class="input-field" type="password" name="customer[password]" placeholder="비밀번호">
+                </div>
+                <div class="input-wrapper">
+                    <input class="input-field " type="text" value="" name="customer[first_name]" placeholder="이름">
+                </div>
+                <div class="input-wrapper">
+                    <input class="input-field " type="text" id="phone" pattern="[0-9]{2,3}-[0-9]{3,4}-[0-9]{3,4}" onkeyup="inputPhoneNumber(this);" maxlength="13" placeholder="휴대번호">
+                </div>
+                <div class="input-wrapper">
+                    <input class="button" id="submit" type="submit" value="다음단계 >">
+                </div>
+    
+            </form>
+    
+            <div class="foot-note">
+                <div>메종테일러의 <a href="/pages/terms-of-use">이용약관</a>과
+                    <a href="/pages/privacy-policy">개인정보 취급방침</a>에 동의합니다.</div>
+            </div>
+            <div class="new-customer">
+                <h4>이미 회원이신가요?</h4>
+                <div class="input-wrapper">
+                    <a class="input-field" href="/account/login">로그인하기</a>
+                </div>
+            </div>
         </div>
     </div>
     <div class="footer">
