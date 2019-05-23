@@ -21,13 +21,13 @@
 - mypage.html (05/23)
 
 **작업중/남은페이지**
-mypage_order_detail
-mypage_favorite
-mypage_style_qna
-mypage_qna
-mypage_profile
-landing
-login
+- mypage_order_detail
+- mypage_favorite
+- mypage_style_qna
+- mypage_qna
+- mypage_profile
+- landing
+- login
 
 - - -
 
