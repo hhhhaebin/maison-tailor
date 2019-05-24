@@ -16,15 +16,16 @@
 - cart.html (05/23 수정)
 - cart_finish.html (05/23 수정)
 
-- pay.html (05/23)
-- store.html (05/23)
-- mypage.html (05/23)
+- pay.html (05/24)
+- store.html (05/24)
+- mypage.html (05/24)
+- mypage_order_detail_0.html (05/24)
+- mypage_order_detail_1.html (05/24)
+- mypage_favorite.html (05/24)
+- mypage_qna.html (05/24)
 
 **작업중/남은페이지**
-- mypage_order_detail
-- mypage_favorite
 - mypage_style_qna
-- mypage_qna
 - mypage_profile
 - landing
 - login
