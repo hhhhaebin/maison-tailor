@@ -105,13 +105,17 @@ font-family: 'Spoqa Han Sans', 'Spoqa Han Sans JP', 'Sans-serif';/*
 .wrap_title .btn_next {right:80px;padding-right:12px}
 .wrap_title .btn_next:before {right:0;background-position:24px 0}
 
-.sorting {margin-bottom:26px;padding:18px 0;text-align:right;background:#f6f6f6;}
+.section_title {margin:0 auto;padding:0 8px;font-size:36px;line-height:54px}
+.section_title.center {text-align:center}
+
+.section_list .sorting {margin-top:-48px}
+.sorting {margin-bottom:48px;padding:18px 0;text-align:right;background:#f6f6f6;}
 .sorting .btn_sort {display:inline-block;margin:0 8px 0 6px;padding:10px 0;width:120px;height:44px;border:1px solid #e0e0e0;box-sizing:border-box;font-size:16px;line-height:24px;background:#fff;text-align:center;vertical-align:top}
 .sorting .btn_sort.on {color:#fff;border-color:#00a2e1;background:#00a2e1}
 
 /* 페이징 */
-.paging {padding:70px 16px 30px 0;text-align:center}
-.paging .link_page {display:inline-block;margin-left:16px;padding:6px 0;width:40px;height:40px;border:1px solid #e0e0e0;box-sizing:border-box;color:#9b9b9b;font-weight:600;font-size:20px;line-height:27px;vertical-align:top;background:#fff}
+.paging {padding:45px 0 70px;text-align:center}
+.paging .link_page {display:inline-block;margin:0 8px;padding:6px 0;width:40px;height:40px;border:1px solid #e0e0e0;box-sizing:border-box;font-weight:bold;font-size:16px;line-height:27px;vertical-align:top;background:#fff}
 .paging .link_page.on {color:#fff;border-color:#00a2e1;background:#00a2e1}
 .paging .elipsis {display:inline-block;width:28px;height:4px;margin:16px 10px 0 26px;vertical-align:top;background:url(../images/ico_elipsis.png) no-repeat;content:""}
 .paging button:before {display:block;margin:0 auto;width:17px;height:16px;background:url(../images/ico_paging.png) no-repeat;content:""}
@@ -132,24 +136,24 @@ font-family: 'Spoqa Han Sans', 'Spoqa Han Sans JP', 'Sans-serif';/*
 .visual .gallery_thumbs .swiper-slide:before {position:absolute;top:0;left:0;z-index:-1;width:48px;height:48px;background:#fff;content:""}
 .visual .gallery_thumbs .swiper-slide img {opacity:.3}
 .visual .gallery_thumbs .swiper-slide-thumb-active img {opacity:1}
+.main .section_title {width:1104px}
 
-.section_title {margin:0 auto;padding:26px 8px 32px;width:1104px;font-family:'Spoqa Han Sans', sans-serif;font-size:36px;line-height:54px}
-.section_title.center {text-align:center}
 
-.section_pick {padding:22px 8px;background:#f6f6f6}
+.section_pick {margin-bottom:25px;padding:22px 8px;background:#f6f6f6}
 .section_pick .tit {display:block;font-weight:normal;font-size:16px;line-height:24px}
 .section_pick .tit .emph {color:#00a2e1}
 .section_pick .tags {overflow:hidden;padding:10px 112px 0 0;max-height:76px}
 .section_pick .tags .link_tag {display:inline-block;margin:4px 4px 0 0;padding:3px 13px 5px;border-radius:4px;color:#fff;font-weight:bold;font-size:16px;line-height:24px;vertical-align:top;background:#00a2e1}
 .section_pick .link_detail {position:absolute;bottom:0;right:8px;padding:5px;width:112px;height:32px;border:1px solid #979797;border-radius:4px;box-sizing:border-box;color:#9b9b9b;font-weight:bold;font-size:14px;line-height:22px;text-align:center}
 
-.tit_comm {padding-left:18px;border-left:4px solid #e0e0e0;font-size:24px;line-height:36px}
+.tit_comm {margin-bottom:20px;padding-left:18px;border-left:4px solid #e0e0e0;font-size:24px;line-height:36px}
 .tit_comm .small {display:block;font-family:'Nunito Sans', sans-serif;font-size:16px;line-height:22px;font-weight:normal}
-.tit_comm.noline {padding-left:0;border:0}
+.tit_comm .txt {display:block;padding-top:4px;color:#9b9b9b;font-size:16px;line-height:24px;font-weight:normal}
+.tit_comm.noline {padding-left:5px;border:0}
 
 .btn_like {z-index:1;padding:14px}
 .btn_like:before {display:block;width:29px;height:28px;background:url(../images/ico_favor.png) no-repeat;content:""}
-.btn_like.on:before {background-position:-29px 0}
+.btn_like.on:before {background-position:-28px 0}
 
 .btn_share {z-index:1;padding:14px}
 .btn_share:before {display:block;width:36px;height:36px;background:url(../images/ico_share.png) no-repeat;content:""}
@@ -159,12 +163,12 @@ font-family: 'Spoqa Han Sans', 'Spoqa Han Sans JP', 'Sans-serif';/*
 .btn_comm.dark {color:#fff;background:#4a4a4a}
 .btn_comm.orange {color:#fff;background:#f9a11b}
 
-.section_list {position:relative;padding-bottom:90px}
+.section_list {position:relative;padding:48px 0 40px}
 .section_list.history {padding-bottom:122px}
 .section_list .swiper-container {margin:0 -8px}
 .section_list .list_comm {padding:2px 0 6px}
 .section_list .list_comm:after {display:table;clear:both;content:"";table-layout:fixed}
-.section_list .list_comm li {position:relative;float:left;margin-top:20px;width:276px}
+.section_list .list_comm li {position:relative;float:left;margin-bottom:20px;width:275px}
 .section_list .list_comm .link_box {display:block;margin:0 auto;width:262px;box-shadow:0 1px 3px 0 rgba(0, 0, 0, .18)}
 .section_list .list_comm .thumb {display:block;height:238px}
 .section_list .list_comm .cont {display:block;padding:8px 14px;height:84px;box-sizing:border-box;font-size:16px;line-height:20px;background:#fff}
@@ -174,8 +178,8 @@ font-family: 'Spoqa Han Sans', 'Spoqa Han Sans JP', 'Sans-serif';/*
 .section_list .list_comm .btn_like {position:absolute;top:0;right:9px}
 .section_list .btn_slide {display:none;position:absolute;top:50%;z-index:1;width:60px;height:60px;background:url(../images/btn_slide.png) no-repeat}
 .section_list .btn_slide.swiper-button-disabled {display:none !important}
-.section_list .btn_prev {left:-15px;background-position:0 0}
-.section_list .btn_next {right:-15px;background-position:-60px 0}
+.section_list .btn_slide.btn_prev {left:-15px;background-position:0 0}
+.section_list .btn_slide.btn_next {right:-15px;background-position:-60px 0}
 .section_list .link_more {position:absolute;top:29px;right:8px;color:#00a2e1;font-weight:bold;font-size:20px;line-height:29px}
 
 .section_brand {padding:48px 0 64px;width:100%;background:#f6f6f6;text-align:center}
@@ -192,7 +196,7 @@ font-family: 'Spoqa Han Sans', 'Spoqa Han Sans JP', 'Sans-serif';/*
 .section_brand .list_brand .cont .tit {display:block;font-size:16px;line-height:22px}
 .section_brand .list_brand .cont .txt {display:block;padding-top:10px;font-size:12px;line-height:16px}
 
-.section_news {margin-bottom:40px;background:#e0e0e0}
+.section_news {background:#e0e0e0}
 .section_news .wrap_news {overflow:hidden;position:relative;background:url(https://www.saraminimage.co.kr/sri/company/information/temp/@bg_top_sample.png);background-repeat:no-repeat;background-position:50% 50%;background-size:cover}
 .section_news .wrap_news:before {position:absolute;top:0;left:0;right:0;bottom:0;background:rgba(27, 30, 33, 0.7);content:""}
 .section_news .wrap_news .inner {padding:124px 0 63px;height:368px;box-sizing:border-box}
@@ -211,7 +215,7 @@ font-family: 'Spoqa Han Sans', 'Spoqa Han Sans JP', 'Sans-serif';/*
 .section_rank {padding:38px 0 66px;background:#f6f6f6}
 .section_rank .list_rank {margin:0 -8px;counter-reset:rank}
 .section_rank .list_rank:after {display:table;clear:both;content:"";table-layout:fixed}
-.section_rank .list_rank li {float:left;margin-top:20px;width:25%}
+.section_rank .list_rank li {float:left;width:25%}
 .section_rank .list_rank .link_box {display:block;position:relative;margin:0 auto;width:262px;height:366px}
 .section_rank .list_rank .link_box:before {position:absolute;top:0;left:0;width:60px;height:60px;color:#fff;font-weight:200;font-style:italic;font-size:24px;line-height:60px;text-align:center;background:rgba(0, 162, 225, 0.8);counter-increment:rank;content:counter(rank)}
 .section_rank .list_rank .thumb {display:block;height:238px}
@@ -220,10 +224,10 @@ font-family: 'Spoqa Han Sans', 'Spoqa Han Sans JP', 'Sans-serif';/*
 .section_rank .list_rank .cont .txt {display:block;overflow:hidden;font-family:'Nunito Sans', sans-serif;text-overflow:ellipsis;white-space:nowrap}
 .section_rank .list_rank .cont .price {display:block;overflow:hidden;padding-top:4px;text-overflow:ellipsis;white-space:nowrap}
 
-.section_category {padding:52px 0 80px}
-.section_category .list_category {margin:0 -8px;padding-top:8px}
+.section_category {padding:52px 0 18px}
+.section_category .list_category {margin:0 -8px}
 .section_category .list_category:after {display:table;clear:both;content:"";table-layout:fixed}
-.section_category .list_category li {float:left;margin-top:16px;width:25%}
+.section_category .list_category li {float:left;margin-bottom:16px;width:25%}
 .section_category .list_category .link_box {display:block;position:relative;z-index:1;margin:0 auto;padding:18px 22px 19px;width:262px;height:64px;box-sizing:border-box;box-shadow:0 1px 6px 0 rgba(0, 0, 0, 0.22);font-size:18px;line-height:27px}
 .section_category .list_category .link_box:hover,
 .section_category .list_category .on .link_box {color:#fff;background:#00a2e1}
@@ -284,20 +288,19 @@ font-family: 'Spoqa Han Sans', 'Spoqa Han Sans JP', 'Sans-serif';/*
 .section_refund .txt_info {padding-top:16px;font-size:16px;line-height:22px}
 
 /* 주문 요청, 장바구니, 결제하기 */
-.request {padding:22px 0 166px}
-.request .section_title {padding-bottom:26px}
-.cart {padding:22px 0 166px}
-.cart .section_title {padding-bottom:10px}
-.pay {padding:22px 0 166px}
-.pay .section_title {padding-bottom:10px}
-.tit_complete {overflow:hidden;margin-top:74px;padding-top:115px;font-size:24px;line-height:36px;text-align:center;background:url(../images/bg_complete.png) 50% 0 no-repeat}
+.request, .cart, .pay {padding:48px 0 166px}
+.tit_complete {overflow:hidden;margin-top:30px;padding-top:115px;font-size:24px;line-height:36px;text-align:center;background:url(../images/bg_complete.png) 50% 0 no-repeat}
 .tit_complete:before {display:block;margin:9px 0 15px;color:#00a2e1;font-size:40px;font-family:'Nunito Sans', sans-serif;line-height:54px;content:"COMPLETE"}
 .txt_complete {padding-top:4px;font-size:16px;line-height:24px;text-align:center}
+.step {overflow:hidden;padding:10px 0 8px 24px;text-align:center}
+.step li {display:inline-block;color:#9b9b9b;font-size:16px;line-height:24px;vertical-align:top}
+.step li:not(:first-child):before {display:inline-block;margin:0 10px;width:24px;height:24px;vertical-align:top;background:url(../images/ico_step.png) no-repeat;content:""}
+.step .on {color:#00a2e1;font-weight:bold}
+.box_message {display:table;margin:0 auto;width:774px;height:228px;background:#f6f6f6;text-align:center}
+.box_message .in_txt {display:table-cell;vertical-align:middle;font-weight:bold;font-size:20px;line-height:29px}
+.bottom_btn {padding-top:16px;text-align:right}
+.bottom_btn .btn_comm {width:140px}
 .section_product {margin:0 auto;width:732px}
-.section_product .step {overflow:hidden;padding:0 0 8px 24px;text-align:center}
-.section_product .step li {display:inline-block;color:#9b9b9b;font-size:16px;line-height:24px;vertical-align:top}
-.section_product .step li:not(:first-child):before {display:inline-block;margin:0 10px;width:24px;height:24px;vertical-align:top;background:url(../images/ico_step.png) no-repeat;content:""}
-.section_product .step .on {color:#00a2e1;font-weight:bold}
 .section_product .btn_delete {position:absolute;top:0;right:0;padding:16px}
 .section_product .btn_delete:before {display:block;width:24px;height:24px;background:url(../images/ico_delete.png) no-repeat;content:""}
 .details {position:relative;margin-top:16px;border-top:1px solid #f6f6f6;padding:22px 0 0 8px}
@@ -332,19 +335,29 @@ font-family: 'Spoqa Han Sans', 'Spoqa Han Sans JP', 'Sans-serif';/*
 .details .box_add {padding:21px 0 18px;height:144px;box-sizing:border-box;background:#f6f6f6;text-align:center}
 .details .box_add .btn_add {padding:15px;font-size:16px;line-height:24px}
 .details .box_add .btn_add:before {display:block;margin:0 auto 15px;width:36px;height:36px;background:url(../images/ico_add.png) no-repeat;content:""}
-.cont_pay {padding:15px 20px 30px;border-top:1px solid #e0e0e0}
+.cont_pay {margin-top:15px;padding:15px 0;border-top:1px solid #e0e0e0}
 .cont_pay .tit_pay {display:block;font-size:20px;line-height:29px}
-.cont_pay .item_input {margin-top:15px}
-.cont_pay .item_input .tit {display:block;font-size:16px;line-height:24px;}
-.cont_pay .item_input .tf {overflow:hidden;margin-top:10px;width:240px;}
-.cont_pay .item_input .tf .inp {display:block;width:100%;height:40px;padding:7px 12px 10px;border:0;border-radius:4px;box-sizing:border-box;font-weight:bold;font-size:16px;background:#f6f6f6}
+.cont_pay .item_input {overflow:hidden;margin-top:15px;min-height:24px}
+.cont_pay .item_input .tit {font-weight:normal;font-size:16px;line-height:24px}
+.cont_pay .item_input .tf {overflow:hidden;font-size:16px;line-height:24px}
+.cont_pay .item_input .tf .inp {display:block;width:100%;height:40px;padding:7px 12px 10px;border:0;border-radius:4px;box-sizing:border-box;font-weight:bold;font-size:16px;text-align:left;background:#f6f6f6}
 .cont_pay .item_input .tf textarea.inp {min-height:71px;resize:vertical}
-.cont_pay .item_input .tf.address {width:522px}
-.cont_pay .item_input .tf.search {position:relative;padding-right:110px;}
-.cont_pay .item_input .tf.search .btn_comm {position:absolute;top:0;right:0;width:90px;height:40px;line-height:40px}
-.cont_pay .item_input .tf.memo {width:438px}
-.save_option {padding-top:16px;text-align:right}
-.save_option .btn_comm {width:140px}
+.cont_pay.input .item_input .tf {margin-top:10px;width:240px}
+.cont_pay.input .item_input .tf.address {width:522px}
+.cont_pay.input .item_input .tf.search {position:relative;padding-right:110px;}
+.cont_pay.input .item_input .tf.search .btn_comm {position:absolute;top:0;right:0;width:90px;height:40px;line-height:40px}
+.cont_pay.input .item_input .tf.memo {width:438px}
+.cont_pay.type1 .item_input .tf {float:right;font-family:'Nunito Sans', sans-serif;text-align:right}
+.cont_pay.type2 .item_input .tf {float:right;font-weight:bold;font-family:'Nunito Sans', sans-serif;text-align:right}
+.cont_pay.type2 .item_input .tit {color:#9b9b9b;font-weight:bold}
+.cont_pay .item_input.total {margin-top:18px}
+.cont_pay .item_input.total .tit {color:#4a4a4a;font-weight:bold;line-height:36px}
+.cont_pay .item_input.total .tf {font-weight:bold;font-size:28px}
+.cont_pay .item_input.prepare {padding-top:15px;border-top:2px solid #f6f6f6}
+.cont_pay .item_input.prepare:first-of-type {border-top:0}
+.cont_pay .item_input.prepare .tf {font-family:'Spoqa Han Sans', sans-serif;}
+.cont_pay .box_message {margin-top:16px;width:702px;height:175px}
+
 .section_product.complete {margin-top:40px;background:#f6f6f6}
 .section_product.complete .details {margin:0 14px;padding:26px 30px;border-top-color:#e0e0e0}
 .section_product.complete .details:first-child {border-top:0}
@@ -362,7 +375,7 @@ font-family: 'Spoqa Han Sans', 'Spoqa Han Sans JP', 'Sans-serif';/*
 .order_info .date {float:left}
 .order_info .number {float:right;color:#9b9b9b}
 .section_pay {margin:16px auto 0;width:774px;padding:0 35px 24px;border:1px solid #e0e0e0;box-sizing:border-box}
-.section_pay .details {padding:20px 0 36px;border-top:0}
+.section_pay .details {padding:20px 0;border-top:0}
 .section_pay .details .info {height:136px}
 .section_pay .details .tit {overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
 .section_pay .options {margin-top:8px}
@@ -370,7 +383,7 @@ font-family: 'Spoqa Han Sans', 'Spoqa Han Sans JP', 'Sans-serif';/*
 .section_pay .options .tit_option {display:inline-block;width:138px;vertical-align:top}
 
 /* mypage */
-.my {padding-top:32px;min-height:820px}
+.my {padding:32px 0 110px;min-height:820px}
 .my_info {padding:32px;height:272px;box-sizing:border-box;background:#02455f}
 .my_info .photo_member {overflow:hidden;margin:0 auto;width:112px;height:112px;border-radius:50%;background:url(../images/thumb_my.png) no-repeat}
 .my_info .cont_member {padding-top:9px;color:#fff;text-align:center}
@@ -412,6 +425,26 @@ font-family: 'Spoqa Han Sans', 'Spoqa Han Sans JP', 'Sans-serif';/*
 .list_my .cont .price {display:block;font-size:20px;line-height:27px}
 .list_my .cont .quantity {display:block;padding-top:9px;font-size:16px;line-height:24px}
 .list_my .btn_comm {position:absolute;bottom:20px;right:20px;width:140px}
+
+
+.list_qna {border:1px solid #e0e0e0;border-top:0}
+.list_qna li {position:relative;border-top:1px solid #e0e0e0}
+.list_qna .link_box {display:block;padding:32px 32px 40px}
+.list_qna .thumb {float:left;height:136px}
+.list_qna .cont {display:block;overflow:hidden;padding:0 20px 0 33px;height:136px;box-sizing:border-box;background:#fff}
+.list_qna .cont .tit {display:block;overflow:hidden;font-family:'Nunito Sans', sans-serif;font-size:28px;line-height:38px;text-overflow:ellipsis;white-space:nowrap}
+.list_qna .cont .txt {display:block;overflow:hidden;font-family:'Nunito Sans', sans-serif;font-size:16px;line-height:22px;text-overflow:ellipsis;white-space:nowrap}
+.list_qna .cont .date {display:block;overflow:hidden;padding:2px 0 26px;font-size:16px;line-height:24px;}
+.list_qna .link_answer {position:absolute;bottom:15px;left:176px;padding:25px;color:#00a2e1;font-weight:bold;font-size:16px;line-height:24px;vertical-align:top;background:#fff}
+.list_qna span.link_answer {color:#4a4a4a;font-weight:normal;text-decoration:underline}
+
+
+.my .section_list {padding-top:0}
+.my .section_list.with {padding-top:65px}
+
+
+
+
 
 
 
