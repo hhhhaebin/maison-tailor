@@ -1,7 +1,12 @@
 
 ### PC 
 + css 
-    + style.css
+    + common.css (reset, 공통)
+    + main.css
+    + pay.css (주문요청, 장바구니, 결제하기)
+    + store.css
+    + mypage.css
+
 
 **완료**
 
