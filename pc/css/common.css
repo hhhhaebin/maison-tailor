@@ -54,6 +54,7 @@ img {vertical-align:top}
 .header .layer_menu .menu a {display:block;padding:7px 20px}
 .header .layer_menu .menu a:hover {text-decoration:underline}
 .header .layer_menu .logout {display:block;margin:0 15px;padding:7px 5px;border-top:1px solid #f6f6f6;color:#9b9b9b}
+.header .btn_login {float:right;padding:0 24px;height:64px;color:#00a2e1;font-weight:bold;font-size:16px;line-height:24px}
 .header .wrap_category {overflow:hidden;min-height:64px;background:#f6f6f6}
 .header .category {padding-right:54px}
 .header .category:after {display:table;clear:both;content:"";table-layout:fixed}
@@ -68,7 +69,7 @@ img {vertical-align:top}
 .header .btn_more:before {display:block;width:24px;height:24px;background:url('../assets/images/ico_more.png') no-repeat;content:""}
 .aside {float:left;width:262px}
 .content {float:left;width:846px;padding-left:20px;box-sizing:border-box}
-.footer {padding-top:44px;height:224px;box-sizing:border-box;background:#1b1e21;text-align:center}
+.footer {padding:44px 0 63px;box-sizing:border-box;background:#1b1e21;text-align:center}
 .footer .sns_menu {overflow:hidden}
 .footer .sns_menu a {display:inline-block;padding:10px 8px;vertical-align:top}
 .footer .sns_menu a:before {display:block;width:24px;height:24px;background:url('../assets/images/ico_sns.png') no-repeat;content:""}
@@ -81,6 +82,20 @@ img {vertical-align:top}
 .footer .copyright .txt {display:inline-block;padding-right:5px;vertical-align:top}
 .footer .copyright a {padding:0 10px;color:#9b9b9b}
 
+/* landing */
+.landing .wrap_head {box-shadow:none}
+.landing .inner {width:100%;max-width:1920px}
+.landing .container {padding-top:400px;height:1003px;box-sizing:border-box;background:url('../assets/images/bg_landing.png') 50% 0 no-repeat;text-align:center}
+.landing .tit_landing {margin:0 auto 27px;width:534px;height:85px;background:url('../assets/images/tit_landing.png') no-repeat}
+.landing .btn_start {width:320px}
+.landing .start_menu {padding:90px 0 190px;text-align:center}
+.landing .start_menu li {display:inline-block;padding:0 70px;vertical-align:top}
+.landing .start_menu a {display:block;color:#fff;font-size:16px;line-height:24px}
+.landing .start_menu a:before {display:block;margin:0 auto;width:58px;height:58px;background-repeat:no-repeat;content:""}
+.landing .start_menu .tell:before {background-image:url('../assets/images/ico_tell.png')}
+.landing .start_menu .curate:before {background-image:url('../assets/images/ico_curate.png')}
+.landing .start_menu .pick:before {background-image:url('../assets/images/ico_pick.png')}
+.landing .start_menu strong {display:block;padding:12px 0 5px;font-size:28px;line-height:38px;font-family:NunitoSans}
 
 /* 타이틀 */
 .wrap_title {position:relative;background:#f6f6f6}
@@ -105,7 +120,7 @@ img {vertical-align:top}
 .section_title.center {text-align:center}
 
 .section_list .sorting {margin-top:-48px}
-.sorting {margin-bottom:48px;padding:18px 0;text-align:right;background:#f6f6f6;}
+.sorting {margin-bottom:48px;padding:18px 0;text-align:right;background:#f6f6f6}
 .sorting .btn_sort {display:inline-block;margin:0 8px 0 6px;padding:10px 0;width:120px;height:44px;border:1px solid #e0e0e0;box-sizing:border-box;font-size:16px;line-height:24px;background:#fff;text-align:center;vertical-align:top}
 .sorting .btn_sort.on {color:#fff;border-color:#00a2e1;background:#00a2e1}
 
@@ -127,7 +142,6 @@ img {vertical-align:top}
 .paging button:before {display:block;margin:0 auto;width:17px;height:16px;background:url('../assets/images/ico_paging.png') no-repeat;content:""}
 .paging .btn_prev:before {background-position:0 0}
 .paging .btn_next:before {background-position:-17px 0}
-
 
 .tit_comm {margin-bottom:20px;padding-left:18px;border-left:4px solid #e0e0e0;font-size:24px;line-height:36px}
 .tit_comm .small {display:block;font-family:'Nunito Sans', sans-serif;font-size:16px;line-height:22px;font-weight:normal}
@@ -165,14 +179,28 @@ img {vertical-align:top}
 .section_list .btn_slide.btn_next {right:-15px;background-position:-60px 0}
 .section_list .link_more {position:absolute;top:29px;right:8px;color:#00a2e1;font-weight:bold;font-size:20px;line-height:29px}
 
-.box_message {display:table;margin:0 auto;width:774px;height:228px;background:#f6f6f6;text-align:center}
-.box_message .in_txt {display:table-cell;vertical-align:middle;font-weight:bold;font-size:20px;line-height:29px}
+.item_input {overflow:hidden;margin-top:15px;min-height:24px}
+.item_input .tit {font-weight:normal;font-size:16px;line-height:24px}
+.item_input .tf {overflow:hidden;margin-top:10px;width:240px;font-size:16px;line-height:24px}
+.item_input .tf .inp {display:block;width:100%;height:40px;padding:7px 12px 10px;border:0;border-radius:4px;box-sizing:border-box;font-weight:bold;font-size:16px;text-align:left;background:#f6f6f6}
+.item_input .tf textarea.inp {min-height:71px;resize:vertical}
+.item_input .tf.address {width:522px}
+.item_input .tf.unipass {position:relative;width:333px;padding-right:80px}
+.item_input .tf.unipass .btn_comm {position:absolute;top:0;right:0;width:58px;height:40px;line-height:40px}
+.item_input .tf.phone {position:relative;padding-right:80px}
+.item_input .tf.phone .btn_comm {position:absolute;top:0;right:0;width:58px;height:40px;line-height:40px}
+.item_input .tf.search {position:relative;padding-right:110px}
+.item_input .tf.search .btn_comm {position:absolute;top:0;right:0;width:90px;height:40px;line-height:40px}
+.box_profile .item_input .tf.email,
+.box_profile .item_input .tf.password {width:430px}
+
 
 .bottom_btn {padding-top:16px;text-align:right}
 .bottom_btn .btn_comm {width:140px}
 
+
 .section_pay {margin:16px auto 0;width:774px;padding:0 35px 24px;border:1px solid #e0e0e0;box-sizing:border-box}
-.section_pay .details {position:relative;margin-top:16px;padding:20px 0;}
+.section_pay .details {position:relative;margin-top:16px;padding:20px 0}
 .section_pay .details .photo {float:left}
 .section_pay .details .info {overflow:hidden;position:relative;padding-left:22px;height:136px}
 .section_pay .details .cont {padding-bottom:15px;font-weight:bold}
@@ -183,27 +211,5 @@ img {vertical-align:top}
 .section_pay .options {margin-top:8px}
 .section_pay .options li {padding-top:8px;font-size:16px;line-height:24px} 
 .section_pay .options .tit_option {display:inline-block;width:138px;vertical-align:top}
-
-.cont_pay {margin-top:15px;padding:15px 0;border-top:1px solid #e0e0e0}
-.cont_pay .tit_pay {display:block;font-size:20px;line-height:29px}
-.cont_pay .item_input {overflow:hidden;margin-top:15px;min-height:24px}
-.cont_pay .item_input .tit {font-weight:normal;font-size:16px;line-height:24px}
-.cont_pay .item_input .tf {overflow:hidden;font-size:16px;line-height:24px}
-.cont_pay .item_input .tf .inp {display:block;width:100%;height:40px;padding:7px 12px 10px;border:0;border-radius:4px;box-sizing:border-box;font-weight:bold;font-size:16px;text-align:left;background:#f6f6f6}
-.cont_pay .item_input .tf textarea.inp {min-height:71px;resize:vertical}
-.cont_pay.input .item_input .tf {margin-top:10px;width:240px}
-.cont_pay.input .item_input .tf.address {width:522px}
-.cont_pay.input .item_input .tf.search {position:relative;padding-right:110px;}
-.cont_pay.input .item_input .tf.search .btn_comm {position:absolute;top:0;right:0;width:90px;height:40px;line-height:40px}
-.cont_pay.input .item_input .tf.memo {width:438px}
-.cont_pay.type1 .item_input .tf {float:right;font-family:'Nunito Sans', sans-serif;text-align:right}
-.cont_pay.type2 .item_input .tf {float:right;font-weight:bold;font-family:'Nunito Sans', sans-serif;text-align:right}
-.cont_pay.type2 .item_input .tit {color:#9b9b9b;font-weight:bold}
-.cont_pay .item_input.total {margin-top:18px}
-.cont_pay .item_input.total .tit {color:#4a4a4a;font-weight:bold;line-height:36px}
-.cont_pay .item_input.total .tf {font-weight:bold;font-size:28px}
-.cont_pay .item_input.prepare {padding-top:15px;border-top:2px solid #f6f6f6}
-.cont_pay .item_input.prepare:first-of-type {border-top:0}
-.cont_pay .item_input.prepare .tf {font-family:'Spoqa Han Sans', sans-serif;}
-.cont_pay .box_message {margin-top:16px;width:702px;height:175px}
-
+.section_pay .cont_pay {margin-top:15px;padding:15px 0;border-top:1px solid #e0e0e0}
+.section_pay .cont_pay .tit_pay {display:block;font-size:20px;line-height:29px}

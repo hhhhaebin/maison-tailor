@@ -1,0 +1,17 @@
+@charset "utf-8";
+
+.errors {margin:23px 0;color:red;text-align:left}
+.login {padding:140px 0 80px;background:#f5f5f5}
+.login .main-content {overflow:hidden;margin:0 auto;padding:35px 25px 0;width:430px;box-sizing:border-box;box-shadow: 3px 10px 20px 0 rgba(0,0,0,.1);background:#fff;text-align:center}
+.login .page-title {color:#515050;font-weight:normal;font-size:28px;line-height:1.25;letter-spacing:-1px}
+.login .sub_text {margin-bottom:30px;color:#333;font-size:13px;font-weight:normal}
+.login .sub_text2 {margin-top:50px;color:#333;font-size:13px;font-weight:normal}
+.login .input-wrapper {margin:20px 0;color:#333;font-size:16px}
+.login .input-wrapper .input-field {display:block;padding:15px;width:100%;height:48px;border:1px solid #d7dcde;border-radius:5px;box-sizing:border-box;color:#51595d;font-size:16px;background:transparent}
+.login .input-wrapper .btn_submit {display:inline-block;padding:12px 30px;width:100%;height:48px;border:0;border-radius:5px;box-sizing:border-box;color:#fff;font-size:16px;background:#3dbce7}
+.login .foot-note {font-weight:300; font-size:13px}
+.login .foot-note > a {text-decoration:underline}
+.login .new-customer {overflow:hidden;margin-top:20px;border-top:1px solid #d5dbdd}
+.login .new-customer p {float:left;margin-top:35px;font-size:16px;line-height:30px;font-weight:normal;color:#515050}
+.login .new-customer .input-wrapper {float:right;margin:25px 0;line-height:50px}
+.login .new-customer .input-wrapper a {padding:0 40px}

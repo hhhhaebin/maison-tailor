@@ -38,8 +38,8 @@
 .section_brand .list_brand .cont .txt {display:block;padding-top:10px;font-size:12px;line-height:16px}
 
 .section_news {background:#e0e0e0}
-.section_news .wrap_news {overflow:hidden;position:relative;background-image:url(https://www.saraminimage.co.kr/sri/company/information/temp/@bg_top_sample.png);background-repeat:no-repeat;background-position:50% 50%;background-size:cover}
-.section_news .wrap_news:before {position:absolute;top:0;left:0;right:0;bottom:0;background:rgba(27, 30, 33, 0.7);content:""}
+.section_news .wrap_news {overflow:hidden;position:relative;background-image:url('../assets/images/bg_main_mid.png');background-repeat:no-repeat;background-position:50% 50%;background-size:cover}
+/* .section_news .wrap_news:before {position:absolute;top:0;left:0;right:0;bottom:0;background:rgba(27, 30, 33, 0.7);content:""} */
 .section_news .wrap_news .inner {padding:124px 0 63px;height:368px;box-sizing:border-box}
 .section_news .wrap_news .link_news {float:left;padding:0 30px 0 25px;width:560px;box-sizing:border-box;color:#fff}
 .section_news .wrap_news .category {display:block;overflow:hidden;height:27px;font-size:20px;font-family:'Nunito Sans', sans-serif;line-height:27px;text-overflow:ellipsis;white-space:nowrap}

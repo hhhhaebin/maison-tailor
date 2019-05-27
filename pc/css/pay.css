@@ -28,12 +28,12 @@
 .section_product .desc .link_origin {display:block;margin-top:8px;padding:12px;height:64px;border:1px solid currentColor;box-sizing:border-box;color:#00a2e1;font-size:16px;font-weight:bold;line-height:22px;text-align:center}
 .section_product .desc .link_origin:before {display:inline-block;margin-right:4px;width:24px;height:24px;background:url('../assets/images/ico_link.png') no-repeat;vertical-align:top;content:""}
 .section_product .desc .link_origin .url {display:block;font-size:12px;font-family:'Nunito Sans', sans-serif;font-weight:normal;line-height:16px}
-.section_product .options {margin-top:24px;width:100%;}
+.section_product .options {margin-top:24px;width:100%}
 .section_product .options:after {display:table;table-layout:fixed;clear:both;content:""}
 .section_product .box_option {position:relative;margin-bottom:16px;padding:16px;box-shadow:0 1px 5px 0 rgba(0, 0, 0, 0.27)}
 .section_product .box_option:after {display:table;table-layout:fixed;clear:both;content:""}
 .section_product .box_option:first-of-type {margin-top:0}
-.section_product .box_option .tit_option {display:block;font-size:16px;line-height:24px;}
+.section_product .box_option .tit_option {display:block;font-size:16px;line-height:24px}
 .section_product .box_option .tf_option {overflow:hidden;margin-top:15px}
 .section_product .box_option .tf_option .inp {display:block;padding:7px 12px 10px;width:100%;height:40px;border:0;border-radius:4px;box-sizing:border-box;font-size:16px;background:#f6f6f6}
 .section_product .box_option .tf_option textarea.inp {min-height:112px;resize:vertical}

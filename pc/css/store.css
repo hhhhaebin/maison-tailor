@@ -28,7 +28,7 @@
 .detail_view {background:#f6f6f6}
 .section_detail {background:#fff}
 .section_detail .inner {padding:96px 0 52px}
-.section_detail .photo {position:relative;float:left;width:638px;}
+.section_detail .photo {position:relative;float:left;width:638px}
 .section_detail .photo .btns {position:absolute;top:0;right:0;z-index:1;font-size:0}
 .section_detail .photo button {display:inline-block;padding:12px 10px 10px;width:88px;height:88px;color:#fff;font-size:16px;line-height:26px;vertical-align:top;background:rgba(0,0,0,.2)}
 .section_detail .photo button:before {margin:0 auto}
