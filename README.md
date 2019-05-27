@@ -6,7 +6,7 @@
     + pay.css (주문요청, 장바구니, 결제하기)
     + store.css
     + mypage.css
-
+    + login.css
 
 **완료**
 
@@ -29,11 +29,13 @@
 - mypage_favorite.html (05/24)
 - mypage_qna.html (05/24)
 
+- mypage_style_qna.html (05/27)
+- mypage_profile.html (05/27)
+- landing.html (05/27)
+- login.html (05/27)
+
+
 **작업중/남은페이지**
-- mypage_style_qna
-- mypage_profile
-- landing
-- login
 
 - - -
 
