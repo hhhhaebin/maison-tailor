@@ -42,4 +42,8 @@
 
 ### Mobile
 + css 
-    + style.css
+    + common.css (reset, 공통)
+    + main.css
+
+**완료**
+- main.html (05/29)
