@@ -113,8 +113,12 @@
                 <div class="input-wrapper">
                     <input class="input-field " type="text" value="" name="customer[first_name]" placeholder="이름">
                 </div>
-                <div class="input-wrapper">
+                <div class="input-wrapper phone">
                     <input class="input-field " type="text" id="phone" pattern="[0-9]{2,3}-[0-9]{3,4}-[0-9]{3,4}" onkeyup="inputPhoneNumber(this);" maxlength="13" placeholder="휴대번호">
+                    <button type="button" class="btn_comm dark">인증</button>
+                </div>
+                <div class="input-wrapper phone">
+                    <input class="input-field " type="text" placeholder="인증번호 입력">
                 </div>
                 <div class="input-wrapper">
                     <button type="submit" class="btn_submit">다음단계 &gt;</button>
