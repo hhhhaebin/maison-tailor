@@ -1,5 +1,18 @@
 @charset "utf-8";
 
+.wrap_category {overflow:hidden;min-height:64px;background:#f6f6f6}
+.wrap_category .category {padding-right:54px}
+.wrap_category .category:after {display:table;clear:both;content:"";table-layout:fixed}
+.wrap_category .category li {float:left;margin-right:18px}
+.wrap_category .category .link_cate {display:block;height:64px;padding:16px 0 19px;border-bottom:4px solid #f6f6f6;box-sizing:border-box;font-weight:600;font-size:20px;line-height:29px;text-decoration:none}
+.wrap_category .category .link_cate:hover,
+.wrap_category .category .on .link_cate {border-color:currentColor;color:#00a2e1}
+.wrap_category .category .link_cate .en {color:#9b9b9b;font-weight:200;font-size:16px;font-family:'Nunito Sans', sans-serif}
+.wrap_category .category .link_cate:hover .en,
+.wrap_category .category .on .en {color:#00a2e1}
+.wrap_category .btn_more {position:absolute;top:0;right:0;padding:21px 15px 19px}
+.wrap_category .btn_more:before {display:block;width:24px;height:24px;background:url('../assets/images/ico_more.png') no-repeat;content:""}
+
 .section_rank {padding:38px 0 66px;background:#f6f6f6}
 .section_rank .list_rank {margin:0 -8px;counter-reset:rank}
 .section_rank .list_rank:after {display:table;clear:both;content:"";table-layout:fixed}
