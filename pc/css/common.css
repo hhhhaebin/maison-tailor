@@ -93,7 +93,7 @@ img {vertical-align:top}
 .wrap_title .tit_category .small {display:block;font-weight:200;font-size:12px;font-family:'Nunito Sans', sans-serif;line-height:18px}
 .wrap_title .tit_category .en {display:block;font-size:20px;font-family:'Nunito Sans', sans-serif;line-height:27px}
 .wrap_title .tit_category .txt_result {display:block;color:#4a4a4a;font-size:16px;line-height:24px}
-.wrap_title .tit_category .keyword {color:#00a2e1;font-family:AppleSDGothicNeo,"Malgun Gothic", dotum, sans-serif}
+.wrap_title .tit_category .keyword {color:#00a2e1}
 .wrap_title .btn {position:absolute;top:50%;margin-top:-28px;min-width:110px;color:#fff;font-size:24px;line-height:36px;opacity:.7}
 .wrap_title .btn:hover {opacity:1}
 .wrap_title .btn:before {position:absolute;top:50%;margin-top:-12px;width:24px;height:24px;background:url('../assets/images/ico_arrow.png') no-repeat;content:""}
