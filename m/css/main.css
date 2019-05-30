@@ -12,7 +12,7 @@
 .section_pick .tags {overflow:hidden;padding-right:30px;max-height:72px}
 .section_pick .tags .link_tag {display:inline-block;margin:8px 4px 0 0;padding:3px 7px 5px 8px;border-radius:4px;color:#fff;font-weight:bold;font-size:14px;line-height:20px;vertical-align:top;background:#00a2e1}
 .section_pick .link_detail {position:absolute;top:50%;right:10px;margin-top:-10px;padding:6px;}
-.section_pick .link_detail:before {display:block;width:24px;height:24px;background:url('../assets/images/ico_arrow.png') no-repeat;background-size:24px 24px;content:""}
+.section_pick .link_detail:before {display:block;width:24px;height:24px;background:url('../assets/images/ico_arrow.png') -24px 0 no-repeat;background-size:48px 24px;content:""}
 
 .section_brand {padding:40px 0 7px;width:100%;background:#f6f6f6;text-align:center}
 .section_brand .tit_brand {font-family:'Nunito Sans', sans-serif;font-size:14px;line-height:20px}

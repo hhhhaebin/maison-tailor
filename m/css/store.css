@@ -1,0 +1,83 @@
+@charset "utf-8";
+
+
+.wrap_category {overflow:hidden;padding:0 16px;height:40px;background:#f6f6f6}
+.wrap_category .category:after {display:table;clear:both;content:"";table-layout:fixed}
+.wrap_category .category li {margin-right:10px;width:auto}
+.wrap_category .category .link_cate {display:block;height:40px;padding:12px 5px 6px;border-bottom:2px solid #f6f6f6;box-sizing:border-box;font-size:14px;line-height:20px;text-decoration:none}
+.wrap_category .category .on .link_cate {border-color:currentColor;color:#00a2e1}
+
+.section_rank {padding:16px 0 36px;background:#f6f6f6}
+.section_rank .swiper-container {padding:0 16px}
+.section_rank .list_rank {counter-reset:rank}
+.section_rank .list_rank:after {display:table;clear:both;content:"";table-layout:fixed}
+.section_rank .list_rank li {float:left;width:33.33%}
+.section_rank .list_rank .link_box {display:block;position:relative;margin:8px 4px}
+.section_rank .list_rank .link_box:before {position:absolute;top:0;left:0;width:32px;height:32px;color:#fff;font-style:italic;font-size:16px;line-height:32px;text-align:center;background:rgba(0, 162, 225, 0.8);counter-increment:rank;content:counter(rank)}
+.section_rank .list_rank .thumb {display:block}
+.section_rank .list_rank .thumb img {width:100%;min-height:195px}
+.section_rank .list_rank .cont {position:absolute;left:0;bottom:0;padding:5px;width:100%;height:64px;box-sizing:border-box;color:#fff;font-size:12px;line-height:17px}
+.section_rank .list_rank .cont .tit {display:block;overflow:hidden;font-size:14px;font-family:'Nunito Sans', sans-serif;line-height:19px;text-overflow:ellipsis;white-space:nowrap}
+.section_rank .list_rank .cont .txt {display:block;overflow:hidden;font-family:'Nunito Sans', sans-serif;text-overflow:ellipsis;white-space:nowrap}
+.section_rank .list_rank .cont .price {display:block;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+
+.section_category {padding-top:24px;border-bottom:56px solid #f6f6f6}
+.section_category .list_category {border-top:1px solid #e0e0e0;text-align:center}
+.section_category .list_category:after {display:table;clear:both;content:"";table-layout:fixed}
+.section_category .list_category li {float:left;width:33.33%}
+.section_category .list_category .link_box {display:block;overflow:hidden;padding:0 5px;height:40px;border-bottom:1px solid #e0e0e0;border-right:1px solid #e0e0e0;box-sizing:border-box;font-size:14px;line-height:38px}
+.section_category .list_category li:nth-child(3n) .link_box {border-right:0}
+.section_category .list_category .on .link_box {color:#fff;background:#00a2e1}
+
+
+/* 상품 상세 */
+.detail_view {background:#f6f6f6}
+.section_detail {background:#fff}
+.section_detail .inner {padding:96px 0 52px}
+.section_detail .photo {position:relative;float:left;width:638px}
+.section_detail .photo .btns {position:absolute;top:0;right:0;z-index:1;font-size:0}
+.section_detail .photo button {display:inline-block;padding:12px 10px 10px;width:88px;height:88px;color:#fff;font-size:16px;line-height:26px;vertical-align:top;background:rgba(0,0,0,.2)}
+.section_detail .photo button:before {margin:0 auto}
+.section_detail .photo .btn_like:before {width:36px;height:36px;background-image:url('../assets/images/ico_favor2.png')}
+.section_detail .photo .btn_like.on:before {background-position:0 0}
+.section_detail .product_photo {overflow:hidden;height:580px}
+.section_detail .product_photo .swiper-slide {height:580px}
+.section_detail .product_thumbs {overflow:hidden;margin:16px 0 0;width:544px;height:120px}
+.section_detail .product_thumbs .swiper-slide {width:120px}
+.section_detail .info {overflow:hidden;position:relative;padding:0 0 60px 20px;height:580px;box-sizing:border-box}
+.section_detail .cont {padding-bottom:20px;font-weight:bold}
+.section_detail .cont .txt {display:block;overflow:hidden;font-size:20px;font-family:'Nunito Sans', sans-serif;line-height:27px;text-overflow:ellipsis;white-space:nowrap}
+.section_detail .cont .tit {display:block;overflow:hidden;max-height:162px;font-size:40px;font-family:'Nunito Sans', sans-serif;line-height:54px}
+.section_detail .cont .price {display:block;font-size:28px;line-height:38px;text-overflow:ellipsis;white-space:nowrap}
+.section_detail .desc {overflow:hidden;height:271px}
+.section_detail .desc .txt_info {font-size:16px;line-height:24px}
+.section_detail .desc .txt_desc {padding-top:16px;font-size:16px;line-height:22px;word-break:break-all}
+.section_detail .desc .link_origin {display:block;margin-top:8px;padding:12px;height:64px;border:1px solid currentColor;box-sizing:border-box;color:#00a2e1;font-size:16px;font-weight:bold;line-height:22px;text-align:center}
+.section_detail .desc .link_origin:before {display:inline-block;margin-right:4px;width:24px;height:24px;background:url('../assets/images/ico_link.png') no-repeat;vertical-align:top;content:""}
+.section_detail .desc .link_origin .url {display:block;font-size:12px;font-family:'Nunito Sans', sans-serif;font-weight:normal;line-height:16px}
+.section_detail .desc .wrap_btn {position:absolute;bottom:0;left:20px}
+.section_detail .desc .wrap_btn .btn_comm {float:left;width:220px}
+.section_detail .desc .wrap_btn .btn_comm:first-of-type {margin-right:10px}
+.section_detail .btn_back {position:absolute;top:25px;left:0;width:140px;height:56px;color:#9b9b9b;font-size:16px;line-height:56px;text-align:center;background:#f6f6f6}
+.section_detail .btn_back:before {display:inline-block;margin:17px 8px 0 0;width:24px;height:24px;vertical-align:top;background:url('../assets/images/ico_back.png') no-repeat;content:""}
+.section_help .tbl_help {table-layout:fixed;margin-top:22px;width:100%;border-collapse:collapse;font-size:16px;background:#fff}
+.section_help .tbl_help th {padding:12px 0;font-weight:normal}
+.section_help .tbl_help td {border-top:1px solid #f6f6f6;text-align:center}
+.section_help .tbl_help .summary {overflow:hidden;position:relative;padding:18px 0;font-size:0}
+.section_help .tbl_help .summary>span,
+.section_help .tbl_help .summary>strong {display:inline-block;vertical-align:top;font-size:16px}
+.section_help .tbl_help .summary .number {width:74px}
+.section_help .tbl_help .summary .status {width:208px}
+.section_help .tbl_help .summary .status.answer {color:#00a2e1;font-weight:bold}
+.section_help .tbl_help .summary .tit {overflow:hidden;padding:0 20px;width:450px;box-sizing:border-box;text-align:left;text-overflow:ellipsis;white-space:nowrap}
+.section_help .tbl_help .summary .tit.lock:before {display:inline-block;margin-right:10px;width:24px;height:24px;vertical-align:top;background:url('../assets/images/ico_lock.png') no-repeat;content:""}
+.section_help .tbl_help .summary .name {overflow:hidden;width:208px;text-overflow:ellipsis;white-space:nowrap}
+.section_help .tbl_help .summary .date {width:156px}
+.section_help .tbl_help .summary .btn_open {position:absolute;top:0;left:0;width:100%;height:100%}
+.section_help .tbl_help .text {display:none;padding:0 22px;border-top:1px solid #f6f6f6;text-align:left}
+.section_help .tbl_help .text .question {padding:16px 0}
+.section_help .tbl_help .text .answer {padding-bottom:16px}
+.section_help .tbl_help .text .answer:before {display:inline-block;padding-right:14px;vertical-align:top;font-weight:bold;content:"ㄴRE :메종 테일러"}
+.section_help .tbl_help .text.open {display:block}
+.section_refund {padding:74px 0 156px}
+.section_refund .txt_info {padding-top:16px;font-size:16px;line-height:22px}

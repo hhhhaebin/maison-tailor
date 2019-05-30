@@ -13,42 +13,40 @@
 <body>
     <div class="wrapper main">
         <div class="header">
-            <div class="wrap_head">
-                <h1 class="logo"><a href="/"><span class="blind">MAISON TAILOR</span></a></h1>
-                <button type="button" class="btn_menu"><span class="blind">메뉴</span></button>
-                <div class="wrap_menu"><!-- 메뉴 버튼 클릭시 on 클래스 추가 -->
-                    <div class="gnb">
-                        <div class="txt_logo"><a href="#"><span class="blind">MAISON TAILOR</span></a></div>
-                        <ul class="service_menu">
-                            <li><a href="##" class="link home">홈</a></li>
-                            <li><a href="##" class="link store">스토어</a></li>
-                        </ul>
-                        <div class="my_info">
-                            <div class="photo_member"></div>
-                            <div class="cont_member">
-                                <strong class="name">손봉경손봉경손봉경손봉경손봉경손봉경손봉경손봉경손봉경손봉경</strong>
-                                <span class="id">thsqhdrudthsqhdrudthsqhdrudthsqhdrudthsqhdrudthsqhdrud</span>
-                                <a href="#" class="link_edit"><span class="blind">정보수정</span></a>
-                            </div>
+            <h1 class="logo"><a href="/"><span class="blind">MAISON TAILOR</span></a></h1>
+            <button type="button" class="btn_menu"><span class="blind">메뉴</span></button>
+            <div class="wrap_menu"><!-- 메뉴 버튼 클릭시 on 클래스 추가 -->
+                <div class="gnb">
+                    <div class="txt_logo"><a href="#"><span class="blind">MAISON TAILOR</span></a></div>
+                    <ul class="service_menu">
+                        <li><a href="##" class="link home">홈</a></li>
+                        <li><a href="##" class="link store">스토어</a></li>
+                    </ul>
+                    <div class="my_info">
+                        <div class="photo_member"></div>
+                        <div class="cont_member">
+                            <strong class="name">손봉경손봉경손봉경손봉경손봉경손봉경손봉경손봉경손봉경손봉경</strong>
+                            <span class="id">thsqhdrudthsqhdrudthsqhdrudthsqhdrudthsqhdrudthsqhdrud</span>
+                            <a href="#" class="link_edit"><span class="blind">정보수정</span></a>
                         </div>
-                        <ul class="my_menu">
-                            <li><a href="##">장바구니</a></li>
-                            <li><a href="##">주문내역</a></li>
-                            <li><a href="##">찜목록</a></li>
-                            <li><a href="##">문의내역</a></li>
-                            <li><a href="##">스타일 문답</a></li>
-                            <li><a href="##">내정보</a></li>
-                        </ul>
                     </div>
-                    <button type="button" class="btn_close"><span class="blind">메뉴 닫기</span></button>
+                    <ul class="my_menu">
+                        <li><a href="##">장바구니</a></li>
+                        <li><a href="##">주문내역</a></li>
+                        <li><a href="##">찜목록</a></li>
+                        <li><a href="##">문의내역</a></li>
+                        <li><a href="##">스타일 문답</a></li>
+                        <li><a href="##">내정보</a></li>
+                    </ul>
                 </div>
-                <button type="button" class="btn_search"><span class="blind">검색</span></button>
-                <div class="wrap_search"><!-- 검색 버튼 클릭시 on 클래스 추가 -->
-                    <div class="search">
-                        <input type="search" class="inp_search" placeholder="찾는 제품이 있으신가요?">
-                    </div>
-                    <button type="button" class="btn_close"><span class="blind">검색 닫기</span></button>
+                <button type="button" class="btn_close"><span class="blind">메뉴 닫기</span></button>
+            </div>
+            <button type="button" class="btn_search"><span class="blind">검색</span></button>
+            <div class="wrap_search"><!-- 검색 버튼 클릭시 on 클래스 추가 -->
+                <div class="search">
+                    <input type="search" class="inp_search" placeholder="찾는 제품이 있으신가요?">
                 </div>
+                <button type="button" class="btn_close"><span class="blind">검색 닫기</span></button>
             </div>
         </div>
         <div class="container">
@@ -339,7 +337,7 @@
             </div>
     
             <div class="section_list history">
-                <h2 class="tit_comm noline">HISTORY</h2>
+                <h2 class="tit_comm">HISTORY</h2>
                 <div class="swiper-container swiper-container-initialized swiper-container-horizontal">
                     <ul class="swiper-wrapper list_comm">
                         <li class="swiper-slide swiper-slide-active">
@@ -440,7 +438,6 @@
             if( $('.swiper-slide', livingRoom).length > 2 ){
                 var swiperTarget1 = new Swiper( $('.swiper-container', livingRoom), {
                     slidesPerView: 2.1,
-                    spaceBetween : 8,
                 });
             }
     
@@ -448,7 +445,6 @@
             if( $('.swiper-slide', Kitchen).length > 2 ){
                 var swiperTarget2 = new Swiper( $('.swiper-container', Kitchen), {
                     slidesPerView: 2.1,
-                    spaceBetween : 8,
                 });
             }
     
@@ -456,7 +452,6 @@
             if( $('.swiper-slide', bedRoom).length > 2 ){
                 var swiperTarget3 = new Swiper( $('.swiper-container', bedRoom), {
                     slidesPerView: 2.1,
-                    spaceBetween : 8,
                 });
             }
     
@@ -465,7 +460,6 @@
                 $('button.btn_slide', history).show();
                 var swiperTarget4 = new Swiper( $('.swiper-container', history), {
                     slidesPerView: 2.1,
-                    spaceBetween : 8,
                 });
             }
             
