@@ -33,8 +33,12 @@
 .section_category .list_category .link_box:hover,
 .section_category .list_category .on .link_box {color:#fff;background:#00a2e1}
 .section_category .icon_type li {width:16.66%}
-.section_category .icon_type .link_box {width:168px;height:168px;text-align:center}
+.section_category .icon_type .link_box {overflow:hidden;width:168px;height:168px;border:1px solid #9b9b9b;border-radius:5px;text-align:center}
 .section_category .icon_type .link_box>img {position:absolute;top:0;left:0;z-index:0}
+.section_category .icon_type .link_box:hover,
+.section_category .icon_type .on .link_box {border-width:2px;border-color:#00a2e1}
+.section_category .icon_type .link_box:hover>img,
+.section_category .icon_type .on .link_box>img {top:-1px;left:-1px}
 .section_order {padding-top:64px}
 
 /* 상품 상세 */
