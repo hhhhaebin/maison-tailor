@@ -28,10 +28,14 @@ img {vertical-align:top}
 .wrapper {}
 .inner {position:relative;margin:0 auto;padding:0 8px;box-sizing:border-box}
 .inner:after {display:table;table-layout:fixed;clear:both;content:""}
-.header {position:relative;padding:0 56px;width:100%;height:52px;box-sizing:border-box;box-shadow:0 1px 5px 0 rgba(0, 0, 0, 0.5);text-align:center}
+.header {position:relative;z-index:10;padding:0 56px;width:100%;height:52px;box-sizing:border-box;box-shadow:0 1px 5px 0 rgba(0, 0, 0, 0.5);font-size:16px;text-align:center}
 .header .logo {display:inline-block;vertical-align:top}
 .header .logo a {display:block;padding:13px}
 .header .logo a:before {display:block;width:163px;height:26px;background:url('../assets/images/logo.png') no-repeat;background-size:163px 26px;content:""}
+.header .tit {padding:14px 0;font-size:16px;line-height:24px}
+.header .btn_back {position:absolute;top:0;left:0;padding:14px 16px}
+.header .btn_back:before {display:block;width:24px;height:24px;background:url('../assets/images/ico_arrow.png') 0 0 no-repeat;background-size:48px 24px;content:""}
+.header .btns {position:absolute;top:8px;right:10px}
 .header .btn_close {position:absolute;top:0;right:0;padding:14px 16px}
 .header .btn_close:before {display:block;width:24px;height:24px;background:url('../assets/images/ico_x.png') no-repeat;background-size:24px 24px;content:""}
 .header .btn_menu {position:absolute;top:0;left:0;padding:14px 16px}
@@ -43,7 +47,6 @@ img {vertical-align:top}
 .header .wrap_menu.on {height:100%;background:rgba(15, 36, 56, .8);transition-delay:1ms}
 .header .wrap_menu.on .gnb {transform:translate3d(0,0,0);opacity:1}
 .header .wrap_menu.on .btn_close {display:block}
-
 .gnb .txt_logo a {display:block;width:163px;padding:13px}
 .gnb .txt_logo a:before {display:block;width:163px;height:26px;background:url('../assets/images/logo.png') no-repeat;background-size:163px 26px;content:""}
 .gnb .service_menu {border-top:8px solid #f6f6f6}
@@ -134,13 +137,16 @@ img {vertical-align:top}
 .btn_like:before {display:block;width:24px;height:24px;background:url('../assets/images/ico_favor.png') no-repeat;background-size:48px 24px;content:""}
 .btn_like.on:before {background-position:-24px 0}
 
+.btn_share {z-index:1;padding:6px}
+.btn_share:before {display:block;width:24px;height:24px;background:url('../assets/images/ico_share.png') no-repeat;background-size:24px 24px;content:""}
+
 .section_list {position:relative;padding-bottom:30px}
 .section_list .list_comm {padding:8px 12px}
 .section_list .list_comm:after {display:table;clear:both;content:"";table-layout:fixed}
 .section_list .list_comm li {position:relative;float:left;width:50%;}
 .section_list .list_comm .link_box {display:block;margin:8px;box-shadow:0 1px 3px 0 rgba(0, 0, 0, .18)}
-.section_list .list_comm .thumb {display:block;overflow:hidden;max-height:134px}
-.section_list .list_comm .thumb img {width:100%}
+.section_list .list_comm .thumb {display:block;overflow:hidden}
+.section_list .list_comm .thumb img {width:100%;min-height:134px}
 .section_list .list_comm .cont {display:block;padding:8px 8px 6px;height:62px;box-sizing:border-box;font-size:12px;line-height:16px;background:#fff}
 .section_list .list_comm .cont .tit {display:block;overflow:hidden;font-family:'Nunito Sans', sans-serif;text-overflow:ellipsis;white-space:nowrap}
 .section_list .list_comm .cont .txt {display:block;overflow:hidden;font-family:'Nunito Sans', sans-serif;text-overflow:ellipsis;white-space:nowrap}

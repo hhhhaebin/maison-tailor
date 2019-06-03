@@ -44,6 +44,12 @@
 + css 
     + common.css (reset, 공통)
     + main.css
+    + store.css
 
 **완료**
 - main.html (05/29)
+- recommed_list.html (05/30)
+- brand_list.html (05/30)
+- search_list.html (05/30)
+- store.html (05/30)
+- product_detail.html (06/03)
