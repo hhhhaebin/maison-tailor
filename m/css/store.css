@@ -68,3 +68,6 @@
 .section_help .list_help .text.open {display:block}
 .section_refund {padding:24px 0 80px}
 .section_refund .txt_info {padding:10px 16px 0;font-size:14px;line-height:20px}
+
+.detail_view .wrap_btn {position:fixed;bottom:0;left:0;right:0;z-index:1}
+.detail_view .wrap_btn .btn_comm {float:left;width:50%;border-radius:0}

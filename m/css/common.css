@@ -140,6 +140,11 @@ img {vertical-align:top}
 .btn_share {z-index:1;padding:6px}
 .btn_share:before {display:block;width:24px;height:24px;background:url('../assets/images/ico_share.png') no-repeat;background-size:24px 24px;content:""}
 
+.btn_comm {display:inline-block;height:56px;border-radius:5px;color:#4a4a4a;font-size:16px;font-weight:bold;line-height:56px;vertical-align:top;background:#e0e0e0;text-align:center} 
+.btn_comm.primary {color:#fff;background:#00a2e1}
+.btn_comm.dark {color:#fff;background:#4a4a4a}
+.btn_comm.orange {color:#fff;background:#f9a11b}
+
 .section_list {position:relative;padding-bottom:30px}
 .section_list .list_comm {padding:8px 12px}
 .section_list .list_comm:after {display:table;clear:both;content:"";table-layout:fixed}
