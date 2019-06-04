@@ -45,6 +45,7 @@
     + common.css (reset, 공통)
     + main.css
     + store.css
+    + pay.css (주문요청, 장바구니, 결제하기)
 
 **완료**
 - main.html (05/29)
@@ -53,3 +54,7 @@
 - search_list.html (05/30)
 - store.html (05/30)
 - product_detail.html (06/03)
+- request.html (06/04)
+- request_finish.html (06/04)
+- cart.html (06/04)
+- cart_finish.html (06/04)
