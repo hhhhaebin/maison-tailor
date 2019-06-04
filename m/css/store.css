@@ -43,11 +43,8 @@
 .section_detail .cont .txt {display:block;overflow:hidden;font-family:'Nunito Sans', sans-serif;font-size:18px;line-height:24px;text-overflow:ellipsis;white-space:nowrap}
 .section_detail .cont .tit {display:block;overflow:hidden;max-height:162px;font-family:'Nunito Sans', sans-serif;font-size:26px;line-height:35px}
 .section_detail .cont .price {display:block;font-size:22px;line-height:30px;text-overflow:ellipsis;white-space:nowrap}
-.section_detail .txt_info {font-size:14px;line-height:18px}
+.section_detail .txt_info {padding-bottom:6px;font-size:14px;line-height:18px}
 .section_detail .txt_desc {overflow:hidden;padding-top:16px;max-height:180px;box-sizing:border-box;font-size:14px;line-height:18px;word-break:break-all}
-.section_detail .link_origin {display:block;margin-top:14px;padding:6px;height:47px;border:1px solid currentColor;box-sizing:border-box;color:#00a2e1;font-size:14px;font-weight:bold;line-height:24px;text-align:center}
-.section_detail .link_origin:before {display:inline-block;margin-right:4px;width:24px;height:24px;background:url('../assets/images/ico_link.png') no-repeat;background-size:24px 24px;vertical-align:top;content:""}
-.section_detail .link_origin .url {display:block;margin-top:-4px;font-family:'Nunito Sans', sans-serif;font-weight:normal;font-size:12px;line-height:16px}
 
 .section_help .list_help {margin:0 16px;background:#fff}
 .section_help .list_help li {border-top:1px solid #f6f6f6}
