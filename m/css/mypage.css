@@ -1,0 +1,91 @@
+@charset "utf-8";
+
+.my .wrap_category {padding-right:6px}
+.my .wrap_category .category li {margin:0;width:19%}
+.my .wrap_category .category li:nth-child(3) {width:24%}
+
+.my_info {padding:32px;height:272px;box-sizing:border-box;background:#02455f}
+.my_info .photo_member {overflow:hidden;margin:0 auto;width:112px;height:112px;border-radius:50%;background:url('../assets/images/thumb_my.png') no-repeat}
+.my_info .cont_member {padding-top:9px;color:#fff;text-align:center}
+.my_info .cont_member .name {display:block;overflow:hidden;font-size:20px;line-height:30px;text-overflow:ellipsis;white-space:nowrap;}
+.my_info .cont_member .id {display:block;overflow:hidden;font-family:'Nunito Sans', sans-serif;font-size:16px;line-height:24px;text-overflow:ellipsis;white-space:nowrap;}
+.my_info .cont_member .link_edit {display:inline-block;padding:10px;color:#fff;font-size:12px;line-height:18px;text-decoration:underline;vertical-align:top}
+.list_my_menu {padding:0 16px;border:1px solid #e0e0e0;font-weight:bold;font-size:20px;line-height:29px}
+.list_my_menu li {border-bottom:1px solid #f6f6f6}
+.list_my_menu li:last-child {border-bottom:0}
+.list_my_menu .link_menu {display:block;padding:25px 10px}
+.list_my_menu .link_menu .num {display:inline-block;margin:7px 0 0 4px;width:18px;height:18px;border-radius:2px;color:#fff;font-size:12px;line-height:18px;text-align:center;vertical-align:top;background:#00a2e1}
+.list_my_menu .on {border-width:2px}
+.list_my_menu .link_menu:hover,
+.list_my_menu .on .link_menu {color:#00a2e1}
+
+.dashboard {padding:32px 0 31px;height:208px;box-sizing:border-box;background:#f6f6f6}
+.dashboard li {float:left;width:16.66%;height:145px;border-left:1px solid #e0e0e0;box-sizing:border-box}
+.dashboard li:first-child {border-left:0}
+.dashboard .item {display:block;color:#00a2e1;font-family:'Nunito Sans', sans-serif;font-size:48px;line-height:66px;text-align:center}
+.dashboard span.item {color:#9b9b9b}
+.dashboard .tit {display:block;padding-bottom:16px;color:#4a4a4a;font-weight:normal;font-size:16px;line-height:24px;background-repeat:no-repeat}
+.dashboard .tit:before {display:block;margin:2px auto 9px;width:28px;height:28px;content:""}
+.dashboard .icon1:before {background-image:url('../assets/images/ico_ship1.png')}
+.dashboard .icon2:before {background-image:url('../assets/images/ico_ship2.png')}
+.dashboard .icon3:before {background-image:url('../assets/images/ico_ship3.png')}
+.dashboard .icon4:before {background-image:url('../assets/images/ico_ship4.png')}
+.dashboard .icon5:before {background-image:url('../assets/images/ico_ship5.png')}
+.dashboard .icon6:before {background-image:url('../assets/images/ico_ship6.png')}
+
+.list_my:after {display:table;table-layout:fixed;clear:both;content:""}
+.list_my li {position:relative;margin-top:16px}
+.list_my .link_box {display:block;padding-bottom:20px;box-shadow:0 1px 3px 0 rgba(0, 0, 0, .18)}
+.list_my .order_info {display:block;margin-bottom:18px;padding:11px 20px;height:48px;border-bottom:1px solid #f6f6f6;box-sizing:border-box}
+.list_my .order_info .date {width:166px}
+.list_my .order_info .status {float:left;color:#00a2e1}
+.list_my .thumb {float:left;padding-left:20px;height:136px}
+.list_my .cont {display:block;overflow:hidden;padding:8px 20px 8px 33px;height:136px;box-sizing:border-box;background:#fff}
+.list_my .cont .tit {display:block;overflow:hidden;font-family:'Nunito Sans', sans-serif;font-size:28px;line-height:38px;text-overflow:ellipsis;white-space:nowrap}
+.list_my .cont .txt {display:block;overflow:hidden;font-family:'Nunito Sans', sans-serif;font-size:16px;line-height:22px;text-overflow:ellipsis;white-space:nowrap}
+.list_my .cont .price {display:block;font-size:20px;line-height:27px}
+.list_my .cont .quantity {display:block;padding-top:9px;font-size:16px;line-height:24px}
+.list_my .btn_comm {position:absolute;bottom:20px;right:20px;width:140px}
+
+.box_message {display:table;margin:0 auto;width:774px;height:228px;background:#f6f6f6;text-align:center}
+.box_message .in_txt {display:table-cell;vertical-align:middle;font-weight:bold;font-size:20px;line-height:29px}
+.cont_pay.input .item_input .tf.memo {width:438px}
+.cont_pay.type1 .item_input .tf {float:right;font-family:'Nunito Sans', sans-serif;text-align:right}
+.cont_pay.type2 .item_input .tf {float:right;font-weight:bold;font-family:'Nunito Sans', sans-serif;text-align:right}
+.cont_pay.type2 .item_input .tit {color:#9b9b9b;font-weight:bold}
+.cont_pay .item_input.total {margin-top:18px}
+.cont_pay .item_input.total .tit {color:#4a4a4a;font-weight:bold;line-height:36px}
+.cont_pay .item_input.total .tf {font-weight:bold;font-size:28px}
+.cont_pay .item_input.prepare {padding-top:15px;border-top:2px solid #f6f6f6}
+.cont_pay .item_input.prepare:first-of-type {border-top:0}
+.cont_pay .item_input.prepare .tf {font-family:'Spoqa Han Sans', sans-serif;}
+.cont_pay .box_message {margin-top:16px;width:702px;height:175px}
+
+.section_list .list_qna {border:1px solid #e0e0e0;border-top:0}
+.section_list .list_qna li {position:relative;border-top:1px solid #e0e0e0}
+.section_list .list_qna .link_box {display:block;padding:32px 32px 40px}
+.section_list .list_qna .thumb {float:left;height:136px}
+.section_list .list_qna .cont {display:block;overflow:hidden;padding:0 20px 0 33px;height:136px;box-sizing:border-box;background:#fff}
+.section_list .list_qna .cont .tit {display:block;overflow:hidden;font-family:'Nunito Sans', sans-serif;font-size:28px;line-height:38px;text-overflow:ellipsis;white-space:nowrap}
+.section_list .list_qna .cont .txt {display:block;overflow:hidden;font-family:'Nunito Sans', sans-serif;font-size:16px;line-height:22px;text-overflow:ellipsis;white-space:nowrap}
+.section_list .list_qna .cont .date {display:block;overflow:hidden;padding:2px 0 26px;font-size:16px;line-height:24px;}
+.section_list .list_qna .link_answer {position:absolute;bottom:15px;left:176px;padding:25px;color:#00a2e1;font-weight:bold;font-size:16px;line-height:24px;vertical-align:top;background:#fff}
+.section_list .list_qna span.link_answer {color:#4a4a4a;font-weight:normal;text-decoration:underline}
+
+.box_profile {margin-bottom:16px;border:1px solid #e0e0e0}
+.box_profile .tit_info {padding:16px 23px 14px;border-bottom:1px solid #e0e0e0;font-size:20px;line-height:29px;}
+.box_profile .txt_info {padding-top:10px;font-size:16px;line-height:24px}
+.box_profile .cont_info {padding:0 20px 20px}
+
+.section_style {position:relative;padding-left:18px}
+.section_style .tit_style {padding-bottom:12px;font-size:24px;line-height:36px}
+.section_style .btn_edit {position:absolute;top:0;right:0;padding:11px 18px;font-weight:bold;font-size:16px;line-height:24px;}
+.section_style .style_qna {position:relative;border-top:1px solid #f6f6f6}
+.section_style .style_qna .tit_question {padding:18px 0 23px;color:#00a2e1;font-size:20px;line-height:29px;}
+.section_style .style_qna .btn_edit {top:12px;color:#9b9b9b;}
+.section_style .tit_type {padding-bottom:16px;font-size:16px;line-height:24px;}
+.section_style .list_answer {padding-bottom:32px}
+.section_style .list_answer:after {display:table;table-layout:fixed;clear:both;content:""}
+.section_style .list_answer li {position:relative;float:left;margin-right:18px;width:184px;height:184px;}
+.section_style .list_answer li input {position:absolute;top:0;width:1px;height:1px;outline:none;opacity:0;pointer-events:none;filter:alpha(opacity=0)}
+.section_style .list_answer li .check {display:block;width:184px;height:184px}

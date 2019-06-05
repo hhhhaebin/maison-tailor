@@ -1,12 +1,6 @@
 @charset "utf-8";
 
 
-.wrap_category {overflow:hidden;padding:0 16px;height:40px;background:#f6f6f6}
-.wrap_category .category:after {display:table;clear:both;content:"";table-layout:fixed}
-.wrap_category .category li {margin-right:10px;width:auto}
-.wrap_category .category .link_cate {display:block;height:40px;padding:12px 5px 6px;border-bottom:2px solid #f6f6f6;box-sizing:border-box;font-size:14px;line-height:20px;text-decoration:none}
-.wrap_category .category .on .link_cate {border-color:currentColor;color:#00a2e1}
-
 .section_rank {padding:16px 0 36px;background:#f6f6f6}
 .section_rank .swiper-container {padding:0 16px}
 .section_rank .list_rank {counter-reset:rank}

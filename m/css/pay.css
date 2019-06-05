@@ -55,3 +55,44 @@
 .product_btn .btn_comm {margin-top:6px;width:100%;height:40px;font-size:14px;line-height:40px}
 
 
+
+
+.bottom_btn {padding-top:16px;text-align:right}
+.bottom_btn .btn_comm {width:140px}
+
+.order_info {overflow:hidden;padding:11px 16px;border-bottom:1px solid #f6f6f6;font-weight:bold;font-size:12px;line-height:17px;background:#fff}
+.order_info:after {display:table;clear:both;content:"";table-layout:fixed}
+.order_info .date {float:left}
+.order_info .number {float:right}
+
+
+.item_input {overflow:hidden;margin-top:15px;min-height:24px}
+.item_input .tit {font-weight:normal;font-size:14px;line-height:20px}
+.item_input .tf {overflow:hidden;margin-top:6px;width:160px;font-size:14px;line-height:24px}
+.item_input .tf .inp {display:block;width:100%;height:32px;padding:8px;border:0;border-radius:4px;box-sizing:border-box;font-weight:bold;font-size:14px;text-align:left;background:#f6f6f6}
+.item_input .tf .btn_comm {position:absolute;top:0;right:0;height:32px;font-size:12px;line-height:32px}
+.item_input .tf textarea.inp {min-height:56px;resize:vertical}
+.item_input .tf.memo,
+.item_input .tf.address {width:100%}
+.item_input .tf.unipass {position:relative;width:333px;padding-right:80px}
+.item_input .tf.unipass .btn_comm {width:58px}
+.item_input .tf.phone {position:relative;padding-right:80px}
+.item_input .tf.phone .btn_comm {width:58px}
+.item_input .tf.search {position:relative;padding-right:88px}
+.item_input .tf.search .btn_comm {width:80px}
+
+.section_pay {padding:12px 16px;background:#f6f6f6}
+.section_pay .inner {border:1px solid #e0e0e0;background:#fff}
+.section_pay .details {position:relative;padding:16px}
+.section_pay .details .photo {float:left}
+.section_pay .details .info {overflow:hidden;position:relative;padding-left:16px;height:80px}
+.section_pay .details .info .txt {display:block;overflow:hidden;font-family:'Nunito Sans', sans-serif;font-size:12px;line-height:16px;text-overflow:ellipsis;white-space:nowrap}
+.section_pay .details .info .tit {display:block;overflow:hidden;font-weight:bold;font-size:18px;font-family:'Nunito Sans', sans-serif;line-height:24px;text-overflow:ellipsis;white-space:nowrap}
+.section_pay .details .info .price {display:block;font-size:14px;line-height:19px;text-overflow:ellipsis;white-space:nowrap}
+.section_pay .details .quantity {padding-top:4px;font-size:12px;line-height:18px}
+.section_pay .options {padding-top:6px}
+.section_pay .options li {padding-top:10px;font-size:14px;line-height:20px} 
+.section_pay .options .tit_option {display:inline-block;width:96px;vertical-align:top}
+.section_pay .cont_pay {margin:0 10px;padding:20px 6px;border-top:1px solid #f6f6f6}
+.section_pay .cont_pay .tit_pay {display:block;font-size:16px;line-height:24px}
+.section_pay .product_btn {padding:16px 0 72px}
