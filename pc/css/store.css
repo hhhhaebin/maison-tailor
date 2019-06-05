@@ -50,7 +50,7 @@
 .section_detail .photo button {display:inline-block;padding:12px 10px 10px;width:88px;height:88px;color:#fff;font-size:16px;line-height:26px;vertical-align:top;background:rgba(0,0,0,.2)}
 .section_detail .photo button:before {margin:0 auto}
 .section_detail .photo .btn_like:before {width:36px;height:36px;background-image:url('../assets/images/ico_favor2.png')}
-.section_detail .photo .btn_like.on:before {background-position:0 0}
+.section_detail .photo .btn_like.on:before {background-position:-36px 0}
 .section_detail .product_photo {overflow:hidden;height:580px}
 .section_detail .product_photo .swiper-slide {height:580px}
 .section_detail .product_thumbs {overflow:hidden;margin:16px 0 0;width:544px;height:120px}

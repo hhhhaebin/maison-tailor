@@ -130,7 +130,7 @@ img {vertical-align:top}
 .paging .btn_prev:before {background-position:0 0}
 .paging .btn_next:before {background-position:-17px 0}
 
-.tit_comm {margin-bottom:20px;padding-left:18px;border-left:4px solid #e0e0e0;font-size:24px;line-height:36px}
+.tit_comm {margin-bottom:10px;padding-left:18px;border-left:4px solid #e0e0e0;font-size:24px;line-height:36px}
 .tit_comm .small {display:block;font-family:'Nunito Sans', sans-serif;font-size:16px;line-height:22px;font-weight:normal}
 .tit_comm .txt {display:block;padding-top:4px;color:#9b9b9b;font-size:16px;line-height:24px;font-weight:normal}
 .tit_comm.noline {padding-left:5px;border:0}
@@ -150,10 +150,11 @@ img {vertical-align:top}
 .section_list {position:relative;padding:48px 0 40px}
 .section_list.history {padding-bottom:122px}
 .section_list .swiper-container {margin:0 -8px}
-.section_list .list_comm {padding:2px 0 6px}
+.section_list .list_comm {padding:10px 0 6px}
 .section_list .list_comm:after {display:table;clear:both;content:"";table-layout:fixed}
 .section_list .list_comm li {position:relative;float:left;margin-bottom:20px;width:275px}
 .section_list .list_comm .link_box {display:block;margin:0 auto;width:262px;box-shadow:0 1px 3px 0 rgba(0, 0, 0, .18)}
+.section_list .list_comm .link_box:hover {box-shadow:0 1px 10px 0 rgba(0, 0, 0, 0.52)}
 .section_list .list_comm .thumb {display:block;height:238px}
 .section_list .list_comm .cont {display:block;padding:8px 14px;height:84px;box-sizing:border-box;font-size:16px;line-height:20px;background:#fff}
 .section_list .list_comm .cont .tit {display:block;overflow:hidden;font-family:'Nunito Sans', sans-serif;line-height:24px;text-overflow:ellipsis;white-space:nowrap}
