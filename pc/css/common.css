@@ -70,10 +70,12 @@ img {vertical-align:top}
 .footer .copyright a {padding:0 10px;color:#9b9b9b}
 
 /* landing */
-.landing .wrap_head {box-shadow:none}
+.landing .header {box-shadow:none}
 .landing .inner {width:100%;max-width:1920px}
 .landing .container {padding-top:400px;height:1003px;box-sizing:border-box;background:url('../assets/images/bg_landing.png') 50% 0 no-repeat;text-align:center}
-.landing .tit_landing {margin:0 auto 27px;width:534px;height:85px;background:url('../assets/images/tit_landing.png') no-repeat}
+.landing .tit_landing {width:678px;margin:0 auto 24px;font-size:20px;line-height:29px;text-align:center}
+.landing .tit_landing span {display:block;font-weight:normal;font-family:'Abril Fatface', cursive;font-size:56px;line-height:75px;letter-spacing:1px}
+.landing .tit_landing span:after {display:inline-block;margin-top:12px;width:28px;height:28px;vertical-align:top;background:url('../assets/images/ico_pick2.png') no-repeat;content:""}
 .landing .btn_start {width:320px}
 .landing .start_menu {padding:90px 0 190px;text-align:center}
 .landing .start_menu li {display:inline-block;padding:0 70px;vertical-align:top}
@@ -102,11 +104,13 @@ img {vertical-align:top}
 .wrap_title .btn_prev:before {left:0;background-position:0 0}
 .wrap_title .btn_next {right:80px;padding-right:12px}
 .wrap_title .btn_next:before {right:0;background-position:24px 0}
-
 .section_title {margin:0 auto;padding:0 8px;font-size:36px;line-height:54px}
 .section_title.center {text-align:center}
+.tit_comm {margin-bottom:10px;padding-left:18px;border-left:4px solid #e0e0e0;font-size:24px;line-height:36px}
+.tit_comm .small {display:block;font-family:'Nunito Sans', sans-serif;font-size:16px;line-height:22px;font-weight:normal}
+.tit_comm .txt {display:block;padding-top:4px;color:#9b9b9b;font-size:16px;line-height:24px;font-weight:normal}
+.tit_comm.noline {padding-left:5px;border:0}
 
-.section_list .sorting {margin-top:-48px}
 .sorting {margin-bottom:48px;padding:18px 0;text-align:right;background:#f6f6f6}
 .sorting .btn_sort {display:inline-block;margin:0 8px 0 6px;padding:10px 0;width:120px;height:44px;border:1px solid #e0e0e0;box-sizing:border-box;font-size:16px;line-height:24px;background:#fff;text-align:center;vertical-align:top}
 .sorting .btn_sort.on {color:#fff;border-color:#00a2e1;background:#00a2e1}
@@ -130,24 +134,20 @@ img {vertical-align:top}
 .paging .btn_prev:before {background-position:0 0}
 .paging .btn_next:before {background-position:-17px 0}
 
-.tit_comm {margin-bottom:10px;padding-left:18px;border-left:4px solid #e0e0e0;font-size:24px;line-height:36px}
-.tit_comm .small {display:block;font-family:'Nunito Sans', sans-serif;font-size:16px;line-height:22px;font-weight:normal}
-.tit_comm .txt {display:block;padding-top:4px;color:#9b9b9b;font-size:16px;line-height:24px;font-weight:normal}
-.tit_comm.noline {padding-left:5px;border:0}
-
+/* 버튼 */
 .btn_like {z-index:1;padding:14px}
 .btn_like:before {display:block;width:29px;height:28px;background:url('../assets/images/ico_favor.png') no-repeat;content:""}
 .btn_like.on:before {background-position:-28px 0}
-
 .btn_share {z-index:1;padding:14px}
 .btn_share:before {display:block;width:36px;height:36px;background:url('../assets/images/ico_share.png') no-repeat;content:""}
-
 .btn_comm {display:inline-block;height:52px;border-radius:5px;color:#4a4a4a;font-size:16px;font-weight:bold;line-height:52px;vertical-align:top;background:#e0e0e0;text-align:center} 
 .btn_comm.primary {color:#fff;background:#00a2e1}
 .btn_comm.dark {color:#fff;background:#4a4a4a}
 .btn_comm.orange {color:#fff;background:#f9a11b}
 
+/* 리스트 */
 .section_list {position:relative;padding:48px 0 40px}
+.section_list .sorting {margin-top:-48px}
 .section_list.history {padding-bottom:122px}
 .section_list .swiper-container {margin:0 -8px}
 .section_list .list_comm {padding:10px 0 6px}
@@ -167,6 +167,7 @@ img {vertical-align:top}
 .section_list .btn_slide.btn_next {right:-15px;background-position:-60px 0}
 .section_list .link_more {position:absolute;top:29px;right:8px;color:#00a2e1;font-weight:bold;font-size:20px;line-height:29px}
 
+/* 입력창 */
 .item_input {overflow:hidden;margin-top:15px;min-height:24px}
 .item_input .tit {font-weight:normal;font-size:16px;line-height:24px}
 .item_input .tf {overflow:hidden;margin-top:10px;width:240px;font-size:16px;line-height:24px}
@@ -182,10 +183,8 @@ img {vertical-align:top}
 .box_profile .item_input .tf.email,
 .box_profile .item_input .tf.password {width:430px}
 
-
 .bottom_btn {padding-top:16px;text-align:right}
 .bottom_btn .btn_comm {width:140px}
-
 
 .section_pay {margin:16px auto 0;width:774px;padding:0 35px 24px;border:1px solid #e0e0e0;box-sizing:border-box}
 .section_pay .details {position:relative;margin-top:16px;padding:20px 0}
