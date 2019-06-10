@@ -88,5 +88,7 @@
 .section_style .list_answer {padding-bottom:32px}
 .section_style .list_answer:after {display:table;table-layout:fixed;clear:both;content:""}
 .section_style .list_answer li {position:relative;float:left;margin-right:18px;width:184px;height:184px;}
-.section_style .list_answer li input {position:absolute;top:0;width:1px;height:1px;outline:none;opacity:0;pointer-events:none;filter:alpha(opacity=0)}
-.section_style .list_answer li .check {display:block;width:184px;height:184px}
+.section_style .list_answer input {position:absolute;top:0;width:1px;height:1px;outline:none;opacity:0;pointer-events:none;filter:alpha(opacity=0)}
+.section_style .list_answer .check {display:block;overflow:hidden;width:184px;height:184px;border:1px solid #9b9b9b;border-radius:5px}
+.section_style .list_answer .check img {position:absolute;top:1px;left:1px;z-index:-1}
+.section_style .list_answer input:checked + .check {border-width:2px;border-color:#00a2e1}
