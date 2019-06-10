@@ -48,7 +48,7 @@
 .list_my .cont .txt {display:block;overflow:hidden;font-family:'Nunito Sans', sans-serif;font-size:12px;line-height:16px;text-overflow:ellipsis;white-space:nowrap}
 .list_my .cont .price {display:block;font-size:14px;line-height:19px}
 .list_my .cont .quantity {display:block;padding-top:5px;font-size:12px;line-height:18px}
-.list_my .btn_comm {width:100%;height:40px;border-radius:0;font-size:14px;line-height:40px}
+.list_my .btn_comm {border-radius:0}
 
 .box_message {display:table;margin:0 auto;width:100%;height:153px;border-top:1px solid #f6f6f6;background:#fff;text-align:center}
 .box_message .in_txt {display:table-cell;vertical-align:middle;font-weight:bold;font-size:14px;line-height:20px}
@@ -60,31 +60,34 @@
 .cont_pay .item_input.prepare .tf {font-family:'Spoqa Han Sans', sans-serif;letter-spacing:0}
 .cont_pay .box_message {background:#f6f6f6}
 
-.section_list .list_qna {border:1px solid #e0e0e0;border-top:0}
-.section_list .list_qna li {position:relative;border-top:1px solid #e0e0e0}
-.section_list .list_qna .link_box {display:block;padding:32px 32px 40px}
-.section_list .list_qna .thumb {float:left;height:136px}
-.section_list .list_qna .cont {display:block;overflow:hidden;padding:0 20px 0 33px;height:136px;box-sizing:border-box;background:#fff}
-.section_list .list_qna .cont .tit {display:block;overflow:hidden;font-family:'Nunito Sans', sans-serif;font-size:28px;line-height:38px;text-overflow:ellipsis;white-space:nowrap}
-.section_list .list_qna .cont .txt {display:block;overflow:hidden;font-family:'Nunito Sans', sans-serif;font-size:16px;line-height:22px;text-overflow:ellipsis;white-space:nowrap}
-.section_list .list_qna .cont .date {display:block;overflow:hidden;padding:2px 0 26px;font-size:16px;line-height:24px;}
-.section_list .list_qna .link_answer {position:absolute;bottom:15px;left:176px;padding:25px;color:#00a2e1;font-weight:bold;font-size:16px;line-height:24px;vertical-align:top;background:#fff}
-.section_list .list_qna span.link_answer {color:#4a4a4a;font-weight:normal;text-decoration:underline}
+.section_list .list_qna {margin-top:4px;background:#fff}
+.section_list .list_qna li {position:relative;border-bottom:1px solid #e0e0e0}
+.section_list .list_qna .link_box {display:block;padding:12px 16px}
+.section_list .list_qna .thumb {float:left;height:104px}
+.section_list .list_qna .cont {display:block;overflow:hidden;padding:2px 24px 0;height:104px;box-sizing:border-box;background:#fff}
+.section_list .list_qna .cont .tit {display:block;overflow:hidden;font-family:'Nunito Sans', sans-serif;font-size:18px;line-height:24px;text-overflow:ellipsis;white-space:nowrap}
+.section_list .list_qna .cont .txt {display:block;overflow:hidden;font-family:'Nunito Sans', sans-serif;font-size:14px;line-height:19px;text-overflow:ellipsis;white-space:nowrap}
+.section_list .list_qna .cont .date {display:block;overflow:hidden;padding:2px 0 19px;font-size:12px;line-height:18px}
+.section_list .list_qna .link_answer {position:absolute;bottom:0;left:130px;padding:14px;color:#00a2e1;font-weight:bold;font-size:12px;line-height:18px;vertical-align:top;background:#fff}
+.section_list .list_qna span.link_answer {color:#4a4a4a;font-weight:normal}
 
 .box_profile {margin-bottom:16px;border:1px solid #e0e0e0}
 .box_profile .tit_info {padding:16px 23px 14px;border-bottom:1px solid #e0e0e0;font-size:20px;line-height:29px;}
 .box_profile .txt_info {padding-top:10px;font-size:16px;line-height:24px}
 .box_profile .cont_info {padding:0 20px 20px}
 
-.section_style {position:relative;padding-left:18px}
-.section_style .tit_style {padding-bottom:12px;font-size:24px;line-height:36px}
-.section_style .btn_edit {position:absolute;top:0;right:0;padding:11px 18px;font-weight:bold;font-size:16px;line-height:24px;}
-.section_style .style_qna {position:relative;border-top:1px solid #f6f6f6}
-.section_style .style_qna .tit_question {padding:18px 0 23px;color:#00a2e1;font-size:20px;line-height:29px;}
-.section_style .style_qna .btn_edit {top:12px;color:#9b9b9b;}
-.section_style .tit_type {padding-bottom:16px;font-size:16px;line-height:24px;}
-.section_style .list_answer {padding-bottom:32px}
+.section_style {position:relative;padding:10px 0 64px;background:#f6f6f6}
+.section_style .btn_comm {display:block;margin:0 auto 2px;width:90%}
+.section_style fieldset {min-width:100%}
+.section_style .style_qna {position:relative;margin-top:8px;background:#fff}
+.section_style .style_qna .tit_question {padding:12px 16px 16px;color:#00a2e1;font-size:14px;line-height:20px}
+.section_style .style_qna .btn_edit {position:absolute;top:0;right:0;padding:12px 16px;color:#9b9b9b;font-weight:bold;font-size:12px;line-height:18px}
+.section_style .style_qna .swiper-container {padding:0 16px}
+.section_style .tit_type {padding:0 16px 8px;color:#9b9b9b;font-size:12px;line-height:18px}
+.section_style .list_answer {padding-bottom:16px}
 .section_style .list_answer:after {display:table;table-layout:fixed;clear:both;content:""}
-.section_style .list_answer li {position:relative;float:left;margin-right:18px;width:184px;height:184px;}
-.section_style .list_answer li input {position:absolute;top:0;width:1px;height:1px;outline:none;opacity:0;pointer-events:none;filter:alpha(opacity=0)}
-.section_style .list_answer li .check {display:block;width:184px;height:184px}
+.section_style .list_answer li {position:relative;float:left;width:auto;margin-right:8px}
+.section_style .list_answer input {position:absolute;top:0;width:1px;height:1px;outline:none;opacity:0;pointer-events:none;filter:alpha(opacity=0)}
+.section_style .list_answer .check {display:block;overflow:hidden;border:1px solid #9b9b9b;border-radius:5px}
+.section_style .list_answer .check img {width:100%}
+.section_style .list_answer input:checked + .check {border-width:2px;border-color:#00a2e1}

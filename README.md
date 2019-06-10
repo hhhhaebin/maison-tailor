@@ -65,3 +65,6 @@
 - mypage.html (06/10)
 - mypage_order_detail_0.html (06/10)
 - mypage_order_detail_1.html (06/10)
+- mypage_favorite.html (06/10)
+- mypage_qna.html (06/10)
+- mypage_style_qna.html (06/10)
