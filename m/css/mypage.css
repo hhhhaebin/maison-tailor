@@ -19,47 +19,46 @@
 .list_my_menu .link_menu:hover,
 .list_my_menu .on .link_menu {color:#00a2e1}
 
-.dashboard {padding:32px 0 31px;height:208px;box-sizing:border-box;background:#f6f6f6}
-.dashboard li {float:left;width:16.66%;height:145px;border-left:1px solid #e0e0e0;box-sizing:border-box}
-.dashboard li:first-child {border-left:0}
-.dashboard .item {display:block;color:#00a2e1;font-family:'Nunito Sans', sans-serif;font-size:48px;line-height:66px;text-align:center}
-.dashboard span.item {color:#9b9b9b}
-.dashboard .tit {display:block;padding-bottom:16px;color:#4a4a4a;font-weight:normal;font-size:16px;line-height:24px;background-repeat:no-repeat}
-.dashboard .tit:before {display:block;margin:2px auto 9px;width:28px;height:28px;content:""}
-.dashboard .icon1:before {background-image:url('../assets/images/ico_ship1.png')}
-.dashboard .icon2:before {background-image:url('../assets/images/ico_ship2.png')}
-.dashboard .icon3:before {background-image:url('../assets/images/ico_ship3.png')}
-.dashboard .icon4:before {background-image:url('../assets/images/ico_ship4.png')}
-.dashboard .icon5:before {background-image:url('../assets/images/ico_ship5.png')}
-.dashboard .icon6:before {background-image:url('../assets/images/ico_ship6.png')}
+.dashboard {border-top:8px solid #f6f6f6;padding:8px 16px;box-sizing:border-box}
+.dashboard:after {display:table;table-layout:fixed;clear:both;content:""}
+.dashboard li {position:relative;float:left;width:33.33%;padding:4px 0;height:48px;box-sizing:border-box}
+.dashboard li:after {position:absolute;top:6px;right:0;width:1px;height:36px;background:#f6f6f6;content:""}
+.dashboard li:nth-child(3n):after {content:none}
+.dashboard .item {display:block;color:#00a2e1;font-weight:bold;font-size:16px;line-height:22px;text-align:center}
+.dashboard span.item {color:#4a4a4a;font-weight:normal}
+.dashboard .tit {display:block;color:#4a4a4a;font-weight:normal;font-size:14px}
 
+
+.my .step li {float:left;width:33.33%}
+.my .step li:before {float:left}
+.my .step li:nth-child(4):before {content:none}
+.my .section_list {padding-top:4px;background:#f6f6f6}
+
+
+.list_my {margin:0 16px}
 .list_my:after {display:table;table-layout:fixed;clear:both;content:""}
-.list_my li {position:relative;margin-top:16px}
-.list_my .link_box {display:block;padding-bottom:20px;box-shadow:0 1px 3px 0 rgba(0, 0, 0, .18)}
-.list_my .order_info {display:block;margin-bottom:18px;padding:11px 20px;height:48px;border-bottom:1px solid #f6f6f6;box-sizing:border-box}
-.list_my .order_info .date {width:166px}
+.list_my li {position:relative;margin-top:8px;box-shadow:0 1px 6px 0 rgba(0, 0, 0, .25)}
+.list_my .link_box {display:block;padding-bottom:14px;background:#fff}
+.list_my .order_info {display:block;margin-bottom:6px}
+.list_my .order_info .date {width:96px}
 .list_my .order_info .status {float:left;color:#00a2e1}
-.list_my .thumb {float:left;padding-left:20px;height:136px}
-.list_my .cont {display:block;overflow:hidden;padding:8px 20px 8px 33px;height:136px;box-sizing:border-box;background:#fff}
-.list_my .cont .tit {display:block;overflow:hidden;font-family:'Nunito Sans', sans-serif;font-size:28px;line-height:38px;text-overflow:ellipsis;white-space:nowrap}
-.list_my .cont .txt {display:block;overflow:hidden;font-family:'Nunito Sans', sans-serif;font-size:16px;line-height:22px;text-overflow:ellipsis;white-space:nowrap}
-.list_my .cont .price {display:block;font-size:20px;line-height:27px}
-.list_my .cont .quantity {display:block;padding-top:9px;font-size:16px;line-height:24px}
-.list_my .btn_comm {position:absolute;bottom:20px;right:20px;width:140px}
+.list_my .thumb {float:left;padding-left:16px;height:80px}
+.list_my .cont {display:block;overflow:hidden;padding:0 16px;height:80px;box-sizing:border-box;background:#fff}
+.list_my .cont .tit {display:block;overflow:hidden;font-family:'Nunito Sans', sans-serif;font-size:18px;line-height:24px;text-overflow:ellipsis;white-space:nowrap}
+.list_my .cont .txt {display:block;overflow:hidden;font-family:'Nunito Sans', sans-serif;font-size:12px;line-height:16px;text-overflow:ellipsis;white-space:nowrap}
+.list_my .cont .price {display:block;font-size:14px;line-height:19px}
+.list_my .cont .quantity {display:block;padding-top:5px;font-size:12px;line-height:18px}
+.list_my .btn_comm {width:100%;height:40px;border-radius:0;font-size:14px;line-height:40px}
 
-.box_message {display:table;margin:0 auto;width:774px;height:228px;background:#f6f6f6;text-align:center}
-.box_message .in_txt {display:table-cell;vertical-align:middle;font-weight:bold;font-size:20px;line-height:29px}
+.box_message {display:table;margin:0 auto;width:100%;height:153px;border-top:1px solid #f6f6f6;background:#fff;text-align:center}
+.box_message .in_txt {display:table-cell;vertical-align:middle;font-weight:bold;font-size:14px;line-height:20px}
 .cont_pay.input .item_input .tf.memo {width:438px}
-.cont_pay.type1 .item_input .tf {float:right;font-family:'Nunito Sans', sans-serif;text-align:right}
-.cont_pay.type2 .item_input .tf {float:right;font-weight:bold;font-family:'Nunito Sans', sans-serif;text-align:right}
-.cont_pay.type2 .item_input .tit {color:#9b9b9b;font-weight:bold}
-.cont_pay .item_input.total {margin-top:18px}
-.cont_pay .item_input.total .tit {color:#4a4a4a;font-weight:bold;line-height:36px}
-.cont_pay .item_input.total .tf {font-weight:bold;font-size:28px}
+.cont_pay .item_input .tf {float:right;font-family:'Nunito Sans', sans-serif;text-align:right}
+.cont_pay .item_input.total .tf {margin-top:0;font-weight:bold;font-size:22px}
 .cont_pay .item_input.prepare {padding-top:15px;border-top:2px solid #f6f6f6}
-.cont_pay .item_input.prepare:first-of-type {border-top:0}
-.cont_pay .item_input.prepare .tf {font-family:'Spoqa Han Sans', sans-serif;}
-.cont_pay .box_message {margin-top:16px;width:702px;height:175px}
+.cont_pay .item_input.prepare:first-of-type {padding-top:0;border-top:0}
+.cont_pay .item_input.prepare .tf {font-family:'Spoqa Han Sans', sans-serif;letter-spacing:0}
+.cont_pay .box_message {background:#f6f6f6}
 
 .section_list .list_qna {border:1px solid #e0e0e0;border-top:0}
 .section_list .list_qna li {position:relative;border-top:1px solid #e0e0e0}

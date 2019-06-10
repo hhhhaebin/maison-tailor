@@ -59,6 +59,97 @@
                     <li><a href="#" class="link_cate">내정보</a></li>
                 </ul>
             </div>
+            <ul class="dashboard">
+                <li><a href="#" class="item"><strong class="tit">주문 요청</strong> 2</a></li>
+                <li><span class="item"><!-- 0일 때 span으로 --><strong class="tit">상품결제 대기</strong> 0</span></li>
+                <li><a href="#" class="item"><strong class="tit">결제 완료</strong> 1</a></li>
+                <li><a href="#" class="item"><strong class="tit">국제 배송결제</strong> 1</a></li>
+                <li><a href="#" class="item"><strong class="tit">배송중</strong> 1</a></li>
+                <li><a href="#" class="item"><strong class="tit">배송 완료</strong> 1</a></li>
+            </ul>
+
+            <div class="section_list">
+                <h2 class="blind">주문내역</h2>
+                <ul class="list_my">
+                    <li>
+                        <a href="#" class="link_box">
+                            <span class="order_info">
+                                <span class="date">2019.02.15</span>
+                                <span class="status">주문 요청</span>
+                                <span class="number">주문번호 :1231238192</span>
+                            </span>
+                            <span class="thumb"><img src="https://dummyimage.com/80x80/ffdbff/7c7e94.png" width="80" height="80" alt=""></span>
+                            <span class="cont">
+                                <span class="txt">Xing Zheng QqkKjJpP QqkKjJpP QqkKjJpP QqkKjJpP</span>
+                                <strong class="tit">Yogarasa Gandhi QqkKjJpP QqkKjJpP QqkKjJpP QqkKjJpP</strong>
+                                <span class="price">$ 3,000</span>
+                                <span class="quantity">수량 : 1개</span>
+                            </span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" class="link_box">
+                            <span class="order_info">
+                                <span class="date">2019.02.15</span>
+                                <span class="status">상품 결제대기</span>
+                                <span class="number">주문번호 :1231238192</span>
+                            </span>
+                            <span class="thumb"><img src="https://dummyimage.com/80x80/ffdbff/7c7e94.png" width="80" height="80" alt=""></span>
+                            <span class="cont">
+                                <span class="txt">Xing Zheng QqkKjJpP QqkKjJpP QqkKjJpP QqkKjJpP</span>
+                                <strong class="tit">Yogarasa Gandhi QqkKjJpP QqkKjJpP QqkKjJpP QqkKjJpP</strong>
+                                <span class="price">$ 3,000</span>
+                                <span class="quantity">수량 : 1개</span>
+                            </span>
+                        </a>
+                        <button type="button" class="btn_comm primary">결제하기</button>
+                    </li>
+                    <li>
+                        <a href="#" class="link_box">
+                            <span class="order_info">
+                                <span class="date">2019.02.15</span>
+                                <span class="status">배송중</span>
+                                <span class="number">주문번호 :1231238192</span>
+                            </span>
+                            <span class="thumb"><img src="https://dummyimage.com/80x80/ffdbff/7c7e94.png" width="80" height="80" alt=""></span>
+                            <span class="cont">
+                                <span class="txt">Xing Zheng QqkKjJpP QqkKjJpP QqkKjJpP QqkKjJpP</span>
+                                <strong class="tit">Yogarasa Gandhi QqkKjJpP QqkKjJpP QqkKjJpP QqkKjJpP</strong>
+                                <span class="price">$ 3,000</span>
+                                <span class="quantity">수량 : 1개</span>
+                            </span>
+                        </a>
+                        <button type="button" class="btn_comm orange">배송 조회하기</button>
+                    </li>
+                    <li>
+                        <a href="#" class="link_box">
+                            <span class="order_info">
+                                <span class="date">2019.02.15</span>
+                                <span class="status">주문 요청</span>
+                                <span class="number">주문번호 :1231238192</span>
+                            </span>
+                            <span class="thumb"><img src="https://dummyimage.com/80x80/ffdbff/7c7e94.png" width="80" height="80" alt=""></span>
+                            <span class="cont">
+                                <span class="txt">Xing Zheng QqkKjJpP QqkKjJpP QqkKjJpP QqkKjJpP</span>
+                                <strong class="tit">Yogarasa Gandhi QqkKjJpP QqkKjJpP QqkKjJpP QqkKjJpP</strong>
+                                <span class="price">$ 3,000</span>
+                                <span class="quantity">수량 : 1개</span>
+                            </span>
+                        </a>
+                    </li>
+                    
+                </ul>
+                <div class="paging">
+                    <button type="button" class="link_page btn_prev"><span class="blind">이전</span></button>
+                    <a href="#" class="link_page">1</a>
+                    <a href="#" class="link_page on">2</a><!-- 선택시 on 클래스 추가 -->
+                    <a href="#" class="link_page">3</a>
+                    <a href="#" class="link_page">4</a>
+                    <a href="#" class="link_page">5</a>
+                    <button type="button" class="link_page btn_next"><span class="blind">다음</span></button>
+                </div>
+            </div>
+
         </div>
         <div class="footer">
             <div class="sns_menu">
@@ -93,9 +184,6 @@
                     $('.wrap_search').removeClass('on');
                 });
             });
-    
-           
-    
     
         });
     </script>
