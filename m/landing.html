@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <title></title>
+    <meta charset="utf-8"/>
+    <meta http-equiv="Content-Language" content="ko-KR" />
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no, target-densitydpi=medium-dpi" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.5.0/css/swiper.min.css">
+    <link rel="stylesheet" href="css/common.css">
+    <link rel="stylesheet" href="css/landing.css">
+</head>
+<body>
+    <div class="wrapper landing">
+        <div class="header">
+            <h1 class="logo"><a href="/"><span class="blind">MAISON TAILOR</span></a></h1>
+            <button type="button" class="btn_login">로그인</button>
+        </div>
+        <div class="container">
+            <h2 class="tit_landing"><span>Pick What You Love</span>나만을 위한 가구 큐레이션 서비스</h2>
+            <a href="#" class="btn_comm btn_start primary">시작하기</a>
+        </div>
+        <div class="footer">
+            <ul class="start_menu">
+                <li class="tell">
+                    <strong>01 TELL</strong>
+                    간단한 퀴즈문답을 통해<br>
+                    여러분이 꾸미기 원하는 공간,<br>
+                    가구종류, 스타일등을 알려주세요.
+                </li>
+                <li class="curate">
+                    <strong>02 CURATE</strong>
+                    수백개의 해외브랜드로부터<br>
+                    엄선하여 추천하는 상품들을<br>
+                    즐기세요.
+                </li>
+                <li class="pick">
+                    <strong>03 PICK</strong>
+                    찜한 상품들 중 원하는 상품은<br>
+                    요청 한번으로<br>
+                    구매부터 배송까지 해결하세요. 
+                </li>
+            </ul>
+            <a href="#" class="btn_comm btn_start primary">시작하기</a>
+            <div class="sns_menu">
+                <a href="##" class="facebook"><span class="blind">Facebook</span></a>
+                <a href="##" class="instagram"><span class="blind">Instagram</span></a>
+            </div>
+            <div class="etc_menu">
+                <a href="##">ABOUT US</a>
+                <a href="##">FAQ</a>
+                <a href="##">CONTACT</a>
+            </div>
+            <div class="copyright">
+                <p class="txt">© 2019 메종테일러. All rights reserved.</p>
+                <a href="#">이용약관</a>
+                <a href="#">개인정보 처리방침</a>
+            </div>
+        </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.5.0/js/swiper.min.js"></script>
+    <script>
+        $(document).ready(function() {
+
+            $('.btn_menu').on('click', function(){
+                $('.wrap_menu').addClass('on').find('.btn_close').on('click',function(){
+                    $('.wrap_menu').removeClass('on');
+                });
+            });
+
+            $('.btn_search').on('click', function(){
+                $('.wrap_search').addClass('on').find('.btn_close').on('click',function(){
+                    $('.wrap_search').removeClass('on');
+                });
+            });
+    
+           
+            var livingRoom = $('.livingroom');
+            if( $('.swiper-slide', livingRoom).length > 2 ){
+                var swiperTarget1 = new Swiper( $('.swiper-container', livingRoom), {
+                    slidesPerView: 2.1,
+                });
+            }
+    
+            var Kitchen = $('.kitchen');
+            if( $('.swiper-slide', Kitchen).length > 2 ){
+                var swiperTarget2 = new Swiper( $('.swiper-container', Kitchen), {
+                    slidesPerView: 2.1,
+                });
+            }
+    
+            var bedRoom = $('.bedroom');
+            if( $('.swiper-slide', bedRoom).length > 2 ){
+                var swiperTarget3 = new Swiper( $('.swiper-container', bedRoom), {
+                    slidesPerView: 2.1,
+                });
+            }
+    
+            var history = $('.history');
+            if( $('.swiper-slide', history).length > 2 ){
+                $('button.btn_slide', history).show();
+                var swiperTarget4 = new Swiper( $('.swiper-container', history), {
+                    slidesPerView: 2.1,
+                });
+            }
+            
+            var brand = $('.section_brand');
+            if( $('.swiper-slide', brand).length > 3 ){
+                var swiperTarget5 = new Swiper($('.swiper-container', brand), {
+                    slidesPerView: 3,
+                    pagination: {
+                        el: '.swiper-pagination',
+                        clickable: true,
+                    },
+                });
+            }
+    
+        });
+    </script>
+    </body>
+    </html>

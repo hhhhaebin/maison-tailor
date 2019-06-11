@@ -1,15 +1,22 @@
 @charset "utf-8";
 
-.my .wrap_category {padding-right:6px}
+.my {background:#f6f6f6}
+.my .wrap_category {margin-bottom:8px;padding-right:6px}
 .my .wrap_category .category li {margin:0;width:19%}
 .my .wrap_category .category li:nth-child(3) {width:24%}
+
+.my .step {background:#fff}
+.my .step li {float:left;width:33.33%}
+.my .step li:before {float:left}
+.my .step li:nth-child(4):before {content:none}
 
 .my_info {padding:32px;height:272px;box-sizing:border-box;background:#02455f}
 .my_info .photo_member {overflow:hidden;margin:0 auto;width:112px;height:112px;border-radius:50%;background:url('../assets/images/thumb_my.png') no-repeat}
 .my_info .cont_member {padding-top:9px;color:#fff;text-align:center}
-.my_info .cont_member .name {display:block;overflow:hidden;font-size:20px;line-height:30px;text-overflow:ellipsis;white-space:nowrap;}
-.my_info .cont_member .id {display:block;overflow:hidden;font-family:'Nunito Sans', sans-serif;font-size:16px;line-height:24px;text-overflow:ellipsis;white-space:nowrap;}
+.my_info .cont_member .name {display:block;overflow:hidden;font-size:20px;line-height:30px;text-overflow:ellipsis;white-space:nowrap}
+.my_info .cont_member .id {display:block;overflow:hidden;font-family:'Nunito Sans', sans-serif;font-size:16px;line-height:24px;text-overflow:ellipsis;white-space:nowrap}
 .my_info .cont_member .link_edit {display:inline-block;padding:10px;color:#fff;font-size:12px;line-height:18px;text-decoration:underline;vertical-align:top}
+
 .list_my_menu {padding:0 16px;border:1px solid #e0e0e0;font-weight:bold;font-size:20px;line-height:29px}
 .list_my_menu li {border-bottom:1px solid #f6f6f6}
 .list_my_menu li:last-child {border-bottom:0}
@@ -19,7 +26,7 @@
 .list_my_menu .link_menu:hover,
 .list_my_menu .on .link_menu {color:#00a2e1}
 
-.dashboard {border-top:8px solid #f6f6f6;padding:8px 16px;box-sizing:border-box}
+.dashboard {padding:8px 16px;box-sizing:border-box;background:#fff}
 .dashboard:after {display:table;table-layout:fixed;clear:both;content:""}
 .dashboard li {position:relative;float:left;width:33.33%;padding:4px 0;height:48px;box-sizing:border-box}
 .dashboard li:after {position:absolute;top:6px;right:0;width:1px;height:36px;background:#f6f6f6;content:""}
@@ -28,14 +35,7 @@
 .dashboard span.item {color:#4a4a4a;font-weight:normal}
 .dashboard .tit {display:block;color:#4a4a4a;font-weight:normal;font-size:14px}
 
-
-.my .step li {float:left;width:33.33%}
-.my .step li:before {float:left}
-.my .step li:nth-child(4):before {content:none}
-.my .section_list {padding-top:4px;background:#f6f6f6}
-
-
-.list_my {margin:0 16px}
+.list_my {margin:12px 16px 0}
 .list_my:after {display:table;table-layout:fixed;clear:both;content:""}
 .list_my li {position:relative;margin-top:8px;box-shadow:0 1px 6px 0 rgba(0, 0, 0, .25)}
 .list_my .link_box {display:block;padding-bottom:14px;background:#fff}
@@ -50,8 +50,9 @@
 .list_my .cont .quantity {display:block;padding-top:5px;font-size:12px;line-height:18px}
 .list_my .btn_comm {border-radius:0}
 
-.box_message {display:table;margin:0 auto;width:100%;height:153px;border-top:1px solid #f6f6f6;background:#fff;text-align:center}
+.box_message {display:table;margin:0 auto;width:100%;height:153px;border-top:1px solid #f6f6f6;text-align:center}
 .box_message .in_txt {display:table-cell;vertical-align:middle;font-weight:bold;font-size:14px;line-height:20px}
+
 .cont_pay.input .item_input .tf.memo {width:438px}
 .cont_pay .item_input .tf {float:right;font-family:'Nunito Sans', sans-serif;text-align:right}
 .cont_pay .item_input.total .tf {margin-top:0;font-weight:bold;font-size:22px}
@@ -60,7 +61,7 @@
 .cont_pay .item_input.prepare .tf {font-family:'Spoqa Han Sans', sans-serif;letter-spacing:0}
 .cont_pay .box_message {background:#f6f6f6}
 
-.section_list .list_qna {margin-top:4px;background:#fff}
+.section_list .list_qna {background:#fff}
 .section_list .list_qna li {position:relative;border-bottom:1px solid #e0e0e0}
 .section_list .list_qna .link_box {display:block;padding:12px 16px}
 .section_list .list_qna .thumb {float:left;height:104px}
@@ -71,14 +72,14 @@
 .section_list .list_qna .link_answer {position:absolute;bottom:0;left:130px;padding:14px;color:#00a2e1;font-weight:bold;font-size:12px;line-height:18px;vertical-align:top;background:#fff}
 .section_list .list_qna span.link_answer {color:#4a4a4a;font-weight:normal}
 
-.box_profile {margin-bottom:16px;border:1px solid #e0e0e0}
-.box_profile .tit_info {padding:16px 23px 14px;border-bottom:1px solid #e0e0e0;font-size:20px;line-height:29px;}
-.box_profile .txt_info {padding-top:10px;font-size:16px;line-height:24px}
-.box_profile .cont_info {padding:0 20px 20px}
+.box_profile {margin-top:8px;background:#fff}
+.box_profile:first-of-type {margin-top:0}
+.box_profile .tit_info {padding:16px 16px 8px;font-size:16px;line-height:24px}
+.box_profile .txt_info {font-size:14px;line-height:20px}
+.box_profile .cont_info {padding:0 16px 16px}
+.box_profile .tf {width:50%}
 
-.section_style {position:relative;padding:10px 0 64px;background:#f6f6f6}
-.section_style .btn_comm {display:block;margin:0 auto 2px;width:90%}
-.section_style fieldset {min-width:100%}
+.section_style {position:relative}
 .section_style .style_qna {position:relative;margin-top:8px;background:#fff}
 .section_style .style_qna .tit_question {padding:12px 16px 16px;color:#00a2e1;font-size:14px;line-height:20px}
 .section_style .style_qna .btn_edit {position:absolute;top:0;right:0;padding:12px 16px;color:#9b9b9b;font-weight:bold;font-size:12px;line-height:18px}
@@ -87,7 +88,7 @@
 .section_style .list_answer {padding-bottom:16px}
 .section_style .list_answer:after {display:table;table-layout:fixed;clear:both;content:""}
 .section_style .list_answer li {position:relative;float:left;width:auto;margin-right:8px}
-.section_style .list_answer input {position:absolute;top:0;width:1px;height:1px;outline:none;opacity:0;pointer-events:none;filter:alpha(opacity=0)}
+.section_style .list_answer input {position:absolute;top:0;width:1px;height:1px;outline:none;opacity:0;pointer-events:none}
 .section_style .list_answer .check {display:block;overflow:hidden;border:1px solid #9b9b9b;border-radius:5px}
 .section_style .list_answer .check img {width:100%}
 .section_style .list_answer input:checked + .check {border-width:2px;border-color:#00a2e1}

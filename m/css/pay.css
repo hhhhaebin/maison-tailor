@@ -2,12 +2,15 @@
 
 /* 주문 요청, 장바구니, 결제하기 */
 
-
+.section_pay .tf {width:160px}
+.tit_complete {overflow:hidden;margin-top:36px;padding:90px 20px 0;font-size:16px;line-height:24px;text-align:center;background:url('../assets/images/bg_complete.png') 50% 0 no-repeat;background-size:122px 80px}
+.tit_complete:before {display:block;color:#00a2e1;font-family:'Nunito Sans', sans-serif;font-size:26px;line-height:35px;content:"COMPLETE"}
+.txt_complete {padding:2px 20px 0;font-size:14px;line-height:18px;text-align:center}
+.section_product {padding-bottom:160px}
 .section_product .details {position:relative;margin-top:16px}
 .section_product .details:first-of-type {margin-top:0}
 .section_product .details .photo {min-height:248px;}
 .section_product .details .photo img {width:100%;min-height:248px}
-
 .section_product .info {overflow:hidden;position:relative;padding:16px}
 .section_product .info .btn_delete {position:absolute;top:0;right:0;padding:16px;font-size:14px;line-height:18px;text-decoration:underline}
 .section_product .info .txt {display:block;overflow:hidden;padding:0 54px 5px 0;font-family:'Nunito Sans', sans-serif;font-size:14px;line-height:19px;text-overflow:ellipsis;white-space:nowrap}
@@ -31,16 +34,12 @@
 .section_product .box_option .tf_option textarea.inp {min-height:112px;resize:vertical}
 .section_product .box_option .btn_delete {position:absolute;top:0;right:0;padding:14px}
 .section_product .box_option .btn_delete:before {display:block;width:24px;height:24px;background:url('../assets/images/ico_delete.png') no-repeat;background-size:24px 24px;content:""}
-
 .section_product .btn_add {width:100%;padding:23px 15px 22px;box-sizing:border-box;font-size:14px;line-height:20px;background:#f6f6f6;text-align:center}
 .section_product .btn_add:before {display:block;margin:0 auto 15px;width:36px;height:36px;background:url('../assets/images/ico_add.png') no-repeat;background-size:36px 36px;content:""}
-
-.tit_complete {overflow:hidden;margin-top:36px;padding:90px 20px 0;font-size:16px;line-height:24px;text-align:center;background:url('../assets/images/bg_complete.png') 50% 0 no-repeat;background-size:122px 80px}
-.tit_complete:before {display:block;color:#00a2e1;font-family:'Nunito Sans', sans-serif;font-size:26px;line-height:35px;content:"COMPLETE"}
-.txt_complete {padding:2px 20px 0;font-size:14px;line-height:18px;text-align:center}
-
-.section_product.complete {margin-top:36px;background:#f6f6f6}
-.section_product.complete .details {margin-top:0;padding:16px 32px}
+.section_product .wrap_btn {margin-top:10px}
+.section_product .wrap_btn .btn_comm {margin-top:6px}
+.section_product.complete {margin-top:36px}
+.section_product.complete .details {margin-top:0;padding:16px 32px;background:#f6f6f6}
 .section_product.complete .photo {float:left;width:96px;height:96px;min-height:96px}
 .section_product.complete .photo img {min-height:96px}
 .section_product.complete .info {height:96px;padding:8px 0 0 16px;box-sizing:border-box}
@@ -51,6 +50,4 @@
 .section_product.complete .options li {padding-top:6px;font-size:14px;line-height:20px} 
 .section_product.complete .options .tit_option {display:inline-block;width:111px;vertical-align:top}
 
-.product_btn {overflow:hidden;padding:10px 0 176px}
-.product_btn .btn_comm {margin-top:6px}
 

@@ -26,11 +26,10 @@
 .section_brand .list_brand .thumb .txt {position:absolute;top:-2px;left:-2px;width:88px;height:88px;color:#fff;font-family:'Nunito Sans', sans-serif;font-weight:bold;font-size:20px;line-height:88px}
 .section_brand .list_brand .tit {display:block;overflow:hidden;padding-top:8px;font-family:'Nunito Sans', sans-serif;font-size:12px;line-height:16px;text-overflow:ellipsis;white-space:nowrap}
 
-.section_news {overflow:hidden;margin-bottom:26px;padding:0 16px;position:relative;background-image:url(https://www.saraminimage.co.kr/sri/company/information/temp/@bg_top_sample.png);background-repeat:no-repeat;background-position:50% 50%;background-size:cover}
+.section_news {overflow:hidden;margin-bottom:26px;padding:0 16px;position:relative;background-image:url('../assets/images/bg_sample.png');background-repeat:no-repeat;background-position:50% 50%;background-size:cover}
 /* .section_news .wrap_news:before {position:absolute;top:0;left:0;right:0;bottom:0;background:rgba(27, 30, 33, 0.7);content:""} */
 .section_news .link_news {display:block;padding:37px 0 24px;border-top:1px solid #e0e0e0;color:#fff}
 .section_news .link_news:first-of-type {border-top:0}
 .section_news .link_news .category {display:block;overflow:hidden;font-size:20px;font-family:'Nunito Sans', sans-serif;line-height:26px;text-overflow:ellipsis;white-space:nowrap}
 .section_news .link_news .tit {display:block;overflow:hidden;padding-top:5px;max-height:76px;font-size:24px;font-family:'Nunito Sans', sans-serif;line-height:27px}
 .section_news .link_news .txt {overflow:hidden;max-height:84px;font-size:14px;line-height:21px}
-.section_list.history {padding-bottom:82px}
