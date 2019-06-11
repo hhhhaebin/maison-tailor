@@ -69,22 +69,6 @@ img {vertical-align:top}
 .footer .copyright .txt {display:inline-block;padding-right:5px;vertical-align:top}
 .footer .copyright a {padding:0 10px;color:#9b9b9b}
 
-/* landing */
-.landing .header {box-shadow:none}
-.landing .inner {width:100%;max-width:1920px}
-.landing .container {padding-top:400px;height:1003px;box-sizing:border-box;background:url('../assets/images/bg_landing.png') 50% 0 no-repeat;text-align:center}
-.landing .tit_landing {width:678px;margin:0 auto 24px;font-size:20px;line-height:29px;text-align:center}
-.landing .tit_landing span {display:block;font-weight:normal;font-family:'Abril Fatface', cursive;font-size:56px;line-height:75px;letter-spacing:1px}
-.landing .tit_landing span:after {display:inline-block;margin-top:12px;width:28px;height:28px;vertical-align:top;background:url('../assets/images/ico_pick2.png') no-repeat;content:""}
-.landing .btn_start {width:320px}
-.landing .start_menu {padding:90px 0 190px;text-align:center}
-.landing .start_menu li {display:inline-block;padding:0 70px;vertical-align:top}
-.landing .start_menu a {display:block;color:#fff;font-size:16px;line-height:24px}
-.landing .start_menu a:before {display:block;margin:0 auto;width:58px;height:58px;background-repeat:no-repeat;content:""}
-.landing .start_menu .tell:before {background-image:url('../assets/images/ico_tell.png')}
-.landing .start_menu .curate:before {background-image:url('../assets/images/ico_curate.png')}
-.landing .start_menu .pick:before {background-image:url('../assets/images/ico_pick.png')}
-.landing .start_menu strong {display:block;padding:12px 0 5px;font-size:28px;line-height:38px;font-family:NunitoSans}
 
 /* 타이틀 */
 .wrap_title {position:relative;background:#f6f6f6}
