@@ -11,9 +11,9 @@
 .landing .tit_landing span:after {display:inline-block;margin-top:12px;width:28px;height:28px;vertical-align:top;background:url('../assets/images/ico_pick2.png') no-repeat;content:""}
 .landing .btn_start {width:320px}
 .landing .start_menu {padding:90px 0 190px;text-align:center}
-.landing .start_menu li {display:inline-block;padding:0 70px;vertical-align:top}
-.landing .start_menu a {display:block;color:#fff;font-size:16px;line-height:24px}
-.landing .start_menu a:before {display:block;margin:0 auto;width:58px;height:58px;background-repeat:no-repeat;content:""}
+.landing .start_menu li {display:inline-block;padding:0 70px;vertical-align:top;color:#fff;font-size:16px;line-height:24px}
+.landing .start_menu li a {color:#fff}
+.landing .start_menu li:before {display:block;margin:0 auto;width:58px;height:58px;background-repeat:no-repeat;content:""}
 .landing .start_menu .tell:before {background-image:url('../assets/images/ico_tell.png')}
 .landing .start_menu .curate:before {background-image:url('../assets/images/ico_curate.png')}
 .landing .start_menu .pick:before {background-image:url('../assets/images/ico_pick.png')}

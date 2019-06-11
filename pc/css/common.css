@@ -12,8 +12,7 @@ input,select,textarea,button {vertical-align:middle}
 button {border:0 none;background-color:transparent;cursor:pointer}
 body {background:#fff}
 body,th,td,input,select,textarea,button {font-size:14px;line-height:1.5;font-family:'Spoqa Han Sans', sans-serif;color:#4a4a4a}
-a {color:#4a4a4a;text-decoration:none}/*
-a:active, a:hover {text-decoration:underline} */
+a {color:#4a4a4a;text-decoration:none}
 address,caption,cite,code,dfn,em,var {font-style:normal;font-weight:normal}
 img {vertical-align:top}
 .blind {overflow:hidden;position:absolute;width:1px;height:1px;clip:rect(1px, 1px, 1px, 1px)}
