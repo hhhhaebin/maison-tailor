@@ -1,6 +1,5 @@
 @charset "utf-8";
 
-
 .my {padding:32px 0 110px;min-height:820px}
 .my .section_list {padding-top:0}
 .my .section_list.with {padding-top:65px}
@@ -92,3 +91,33 @@
 .section_style .list_answer .check {display:block;overflow:hidden;width:184px;height:184px;border:1px solid #9b9b9b;border-radius:5px}
 .section_style .list_answer .check img {position:absolute;top:1px;left:1px;z-index:-1}
 .section_style .list_answer input:checked + .check {border-width:2px;border-color:#00a2e1}
+
+/* 스타일 퀴즈 레이어 */
+body.modal_open {overflow:hidden;position:fixed;width:100%;clear:both;height:100%}
+.modal {display:none;z-index:9999;position:fixed;top: 0;width:100%;height:0;background:#fff}
+.modal.open {display:block;height:100%;overflow-y:scroll}
+.style-quiz {color:#515050;line-height:1.25;text-align:center}
+.style-quiz .quiz-container {padding:0 16px}
+.step-container {display:none}
+.step-container.show {display:block}
+.step-container[data-step="3"] .step-image-container a {width:50%}
+.step-container[data-step="3"] .step-image-container a img {width:100%}
+.quiz-header {margin:24px 0;font-size:18px}
+.quiz-header h4,
+.quiz-header strong {font-weight:normal;text-transform:uppercase}
+.quiz-header .close {position:absolute;top:16px;right:56px;height:32px;cursor:pointer;opacity:.2}
+.quiz-content .step-title {margin-bottom:10px;font-weight:normal;font-size:24px}
+.quiz-content .step-subtitle {margin-bottom:20px;font-weight:normal;font-size:14px}
+.quiz-content .subfor-leading-image-container img,
+.quiz-content .step-leading-image-container img {margin:20px 0 50px;width:150px}
+.quiz-content .step-image-container {margin:10px auto 30px;max-width:600px}
+.quiz-content .step-image-container a {display:inline-block;margin:5px;vertical-align:top}
+.quiz-content .step-image-container a img {width:150px}
+.quiz-action {margin-top:22px}
+.quiz-action p,
+.quiz-action button {displaY:inline-block;margin:22px;padding:0 22px;height:24px;border:1px solid #51595d;border-radius:5px;font-size:14px;line-height:24px;text-transform:uppercase}
+.error {color:red;font-size:16px;line-height:1.625;text-align:center}
+.loading_wrap {display:none;position:relative;height:690px;text-align:center;overflow:hidden}
+.loading_wrap .text {position:absolute;top:260px;left:0;right:0;font-size:18px;font-weight:300;z-index:9;color:#2b2b2b}
+.loading_wrap .img {margin-top:325px;z-index:1}
+.loading_wrap .img img {height:26px}

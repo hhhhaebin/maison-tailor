@@ -57,8 +57,5 @@
     * mypage_order_detail_1.html
     * mypage_favorite.html
     * mypage_qna.html
-    * mypage_style_qna.html
+    * mypage_style_qna.html (스타일퀴즈 레이어)
     * mypage_profile.html
-    
-    
-   
