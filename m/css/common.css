@@ -17,8 +17,8 @@ input:checked[type='checkbox'] {background-color:#666; -webkit-appearance:checkb
 button,input[type='button'],input[type='submit'],input[type='reset'],input[type='file'] {-webkit-appearance:button; border-radius:0}
 input[type='search']::-webkit-search-cancel-button {-webkit-appearance:none}
 body {background:#fff}
-body,th,td,input,select,textarea,button {font-size:14px;line-height:1.5;font-family:'Nunito Sans', "Malgun Gothic", dotum, gulim, sans-serif;color:#4a4a4a}
-a {color:#4a4a4a;text-decoration:none}
+body,th,td,input,select,textarea,button {font-size:14px;line-height:1.5;font-family:'Nunito Sans', "Malgun Gothic", dotum, gulim, sans-serif;color:#4a4a4a;outline:0}
+a {color:#4a4a4a;text-decoration:none;outline:0}
 a:active, a:hover {text-decoration:none}
 address,caption,cite,code,dfn,em,var {font-style:normal;font-weight:normal}
 fieldset {min-width:100%}
