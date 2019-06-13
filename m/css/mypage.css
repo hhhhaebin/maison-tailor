@@ -111,9 +111,8 @@
 .quiz-content .subfor-leading-image-container img,
 .quiz-content .step-leading-image-container img {margin:20px 0 50px;width:150px}
 .quiz-content .step-image-container {margin:10px auto 30px}
-.quiz-content .step-image-container a {display:inline-block;margin:5px;vertical-align:top}
+.quiz-content .step-image-container a {display:inline-block;position:relative;margin:5px;vertical-align:top}
 .quiz-content .step-image-container a img {width:150px}
-.quiz-content .step-image-container a.active {position:relative}
 .quiz-content .step-image-container a.active:after {position:absolute;top:0;left:0;right:0;bottom:0;border:2px solid #0a91c2;border-radius:5px;content:""}
 .quiz-action {margin-top:22px}
 .quiz-action p,
