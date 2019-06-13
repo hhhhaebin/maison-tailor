@@ -100,8 +100,6 @@ body.modal_open {overflow:hidden;position:fixed;width:100%;clear:both;height:100
 .style-quiz .quiz-container {padding:0 16px}
 .step-container {display:none}
 .step-container.show {display:block}
-.step-container[data-step="3"] .step-image-container a {max-width:300px;width:50%}
-.step-container[data-step="3"] .step-image-container a img {width:100%}
 .quiz-header {margin:24px 0;font-size:18px}
 .quiz-header h4,
 .quiz-header strong {font-weight:normal;text-transform:uppercase}
