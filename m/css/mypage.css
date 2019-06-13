@@ -100,7 +100,7 @@
 .style-quiz .quiz-container {padding:0 16px}
 .step-container {display:none}
 .step-container.show {display:block}
-.step-container[data-step="3"] .step-image-container a {width:50%}
+.step-container[data-step="3"] .step-image-container a {max-width:300px;width:50%}
 .step-container[data-step="3"] .step-image-container a img {width:100%}
 .quiz-header {margin:24px 0;font-size:18px}
 .quiz-header h4,
@@ -110,9 +110,11 @@
 .quiz-content .step-subtitle {margin-bottom:20px;font-weight:normal;font-size:14px}
 .quiz-content .subfor-leading-image-container img,
 .quiz-content .step-leading-image-container img {margin:20px 0 50px;width:150px}
-.quiz-content .step-image-container {margin:10px auto 30px;max-width:600px}
+.quiz-content .step-image-container {margin:10px auto 30px}
 .quiz-content .step-image-container a {display:inline-block;margin:5px;vertical-align:top}
 .quiz-content .step-image-container a img {width:150px}
+.quiz-content .step-image-container a.active {position:relative}
+.quiz-content .step-image-container a.active:after {position:absolute;top:0;left:0;right:0;bottom:0;border:2px solid #0a91c2;border-radius:5px;content:""}
 .quiz-action {margin-top:22px}
 .quiz-action p,
 .quiz-action button {displaY:inline-block;margin:22px;padding:0 22px;height:24px;border:1px solid #51595d;border-radius:5px;font-size:14px;line-height:24px;text-transform:uppercase}
