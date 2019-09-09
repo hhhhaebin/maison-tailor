@@ -31,6 +31,7 @@ img {vertical-align:top}
 .header .service_menu li {float:left}
 .header .service_menu .link {display:block;padding:20px 14px;font-size:16px;line-height:24px}
 .header .service_menu .link:hover {text-decoration:underline}
+.header .service_menu .on .link {color:#00a2e1;font-weight:bold}
 .header .my_menu {display:inline-block;vertical-align:top}
 .header .my_menu:after {display:table;table-layout:fixed;clear:both;content:""}
 .header .my_menu .btn_search {float:left;padding:20px 14px}
@@ -72,7 +73,6 @@ img {vertical-align:top}
 /* 타이틀 */
 .wrap_title {position:relative;background:#f6f6f6}
 .wrap_title .bg {position:absolute;top:0;left:0;right:0;bottom:0;background-repeat:no-repeat;background-position:50% 50%;background-size:cover;content:""}
-/* .wrap_title .bg:before {position:absolute;top:0;left:0;right:0;bottom:0;background:#0f2438;opacity:.8;content:""} */
 .wrap_title .title {display:table;width:100%;height:320px;text-align:center}
 .wrap_title .tit_category {display:table-cell;padding:0 200px;color:#fff;font-weight:600;font-size:40px;line-height:48px;vertical-align:middle}
 .wrap_title .tit_category .small {display:block;font-weight:200;font-size:12px;font-family:'Nunito Sans', sans-serif;line-height:18px}
