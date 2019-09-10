@@ -42,7 +42,7 @@
 .section_cont .txt_cont {padding-top:16px;font-size:14px;line-height:19px;font-family:'Nunito Sans', sans-serif;word-break:break-all}
 .section_cont .swiper-container {padding-bottom:45px}
 .section_cont .swiper-pagination-bullet-active {background: #4a4a4a}
-.section_cont .list {overflow:hidden}
+.section_cont .list {overflow:hidden;padding-top:20px}
 .section_cont .list li {width:100%;padding:20px 0;box-sizing:border-box;word-break:break-all}
 .section_cont .list li>img {display:block;margin:0 auto 20px;height:64px}
 .section_cont .list_partner {overflow:hidden;padding-top:24px;font-size:0;text-align:center}
