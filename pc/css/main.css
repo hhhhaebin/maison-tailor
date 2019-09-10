@@ -59,13 +59,7 @@
 .section_cont .txt_cont {margin:20px auto 0;max-width:912px;font-size:20px;line-height:27px;font-family:'Nunito Sans', sans-serif;word-break:break-all}
 .section_cont .list {overflow:hidden;padding-top:20px}
 .section_cont .list li {float:left;width:33.33%;padding:30px 60px;box-sizing:border-box;word-break:break-all}
-.section_cont .list li:before {display:block;margin:0 auto 25px;width:168px;height:168px;background-repeat:no-repeat;background-position:50% 50%;content:""}
-.section_cont .list .icon1:before {background-image:url(../assets/images/ico_list1.png)}
-.section_cont .list .icon2:before {background-image:url(../assets/images/ico_list2.png)}
-.section_cont .list .icon3:before {background-image:url(../assets/images/ico_list3.png)}
-.section_cont .list .icon4:before {background-image:url(../assets/images/ico_list4.png)}
-.section_cont .list .icon5:before {background-image:url(../assets/images/ico_list5.png)}
-.section_cont .list .icon6:before {background-image:url(../assets/images/ico_list6.png)}
+.section_cont .list li>img {display:block;margin:0 auto 35px;height:123px}
 .section_cont .list_partner {overflow:hidden;padding-top:60px;font-size:0;text-align:center}
 .section_cont .list_partner li {display:inline-block;padding:18px 8px;width:168px;vertical-align:top}
 .section_cont .list_partner li a {display:block}

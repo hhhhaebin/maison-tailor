@@ -27,9 +27,6 @@ img {vertical-align:top}
 
 /* 레이아웃 */
 .wrapper {letter-spacing:-1px}
-/*
-.inner {position:relative;margin:0 auto;padding:0 8px;box-sizing:border-box}
-.inner:after {display:table;table-layout:fixed;clear:both;content:""}*/
 .header {position:relative;z-index:10;padding:0 56px;width:100%;height:52px;box-sizing:border-box;box-shadow:0 1px 5px 0 rgba(0, 0, 0, 0.5);font-size:16px;text-align:center}
 .header .logo {display:inline-block;vertical-align:top}
 .header .logo a {display:block;padding:13px}
@@ -82,7 +79,7 @@ img {vertical-align:top}
 .header .wrap_search .search {padding:0 54px;background:#fff}
 .header .wrap_search .search .inp_search {display:block;padding:17px 0;width:100%;height:52px;border:0;box-sizing:border-box;font-size:12px;line-height:18px}
 .header .wrap_search .search:before {position:absolute;top:50%;left:16px;margin-top:-12px;width:24px;height:24px;background:url('../assets/images/ico_search.png') no-repeat;background-size:24px 24px;content:""}
-.container {padding-bottom:64px}
+
 .footer {padding:40px 0 32px;background:#1b1e21;text-align:center}
 .footer .sns_menu {overflow:hidden}
 .footer .sns_menu a {display:inline-block;padding:6px;vertical-align:top}
@@ -99,12 +96,15 @@ img {vertical-align:top}
 /* 타이틀 */
 .wrap_title {position:relative;background:#f6f6f6}
 .wrap_title .bg {position:absolute;top:0;left:0;right:0;bottom:0;background-repeat:no-repeat;background-position:50% 50%;background-size:cover;content:""}
-/* .wrap_title .bg:before {position:absolute;top:0;left:0;right:0;bottom:0;background:#0f2438;opacity:.8;content:""} */
-.wrap_title .title {display:table;position:relative;width:100%;height:204px;text-align:center}
+.wrap_title .title {display:table;position:relative;width:100%;min-height:204px;text-align:center}
+.wrap_title .bg + .title {color:#fff}
 .wrap_title .tit_category {display:table-cell;padding:0 70px;color:#fff;font-weight:bold;font-size:24px;line-height:36px;vertical-align:middle}
 .wrap_title .tit_category .en {display:block;font-weight:normal;font-size:14px;font-family:'Nunito Sans', sans-serif;line-height:18px}
 .wrap_title .tit_category .txt_result {display:block;color:#4a4a4a;font-size:12px;line-height:17px}
 .wrap_title .tit_category .keyword {color:#00a2e1}
+.wrap_title .tit_desc {display:table-cell;padding:30px 20px;font-family:'Nunito Sans', sans-serif;font-size:22px;line-height:30px;letter-spacing:1px;vertical-align:middle}
+.wrap_title .tit_desc span {display:block;font-weight:normal;font-size:11px;line-height:14px}
+.wrap_title .txt_desc {padding-top:7px;font-size:12px;line-height:14px}
 .wrap_title .btn {position:absolute;top:50%;margin-top:-28px;padding:16px;color:#e0e0e0;font-size:16px;line-height:24px}
 .wrap_title .btn:before,
 .wrap_title .btn:after {display:inline-block;width:24px;height:24px;vertical-align:top;background:url('../assets/images/ico_arrow.png') no-repeat;background-size:48px 24px}
@@ -212,7 +212,7 @@ img {vertical-align:top}
 .item_input + .btn_comm {margin-top:16px}
 
 /* 페이징 */
-.paging {padding:30px 0;text-align:center}
+.paging {padding:30px 0 64px;text-align:center}
 .paging .link_page {display:inline-block;margin:0 1px;padding:5px 0;width:28px;height:28px;border:1px solid #e0e0e0;box-sizing:border-box;font-weight:bold;font-size:14px;line-height:18px;vertical-align:top;background:#fff}
 .paging .link_page.on {color:#fff;border-color:#00a2e1;background:#00a2e1}
 .paging .elipsis {display:inline-block;width:28px;height:4px;margin:12px 12px 0 18px;vertical-align:top;background:url('../assets/images/ico_elipsis.png') no-repeat;background-size:20px 5px;content:""}
