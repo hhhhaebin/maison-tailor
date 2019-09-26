@@ -13,17 +13,7 @@
 .wrap_category .btn_more {position:absolute;top:0;right:0;padding:21px 15px 19px}
 .wrap_category .btn_more:before {display:block;width:24px;height:24px;background:url('../assets/images/ico_more.png') no-repeat;content:""}
 
-.section_rank {padding:38px 0 66px;background:#f6f6f6}
-.section_rank .list_rank {margin:0 -8px;counter-reset:rank}
-.section_rank .list_rank:after {display:table;clear:both;content:"";table-layout:fixed}
-.section_rank .list_rank li {float:left;width:25%}
-.section_rank .list_rank .link_box {display:block;position:relative;margin:0 auto;width:262px;height:366px}
-.section_rank .list_rank .link_box:before {position:absolute;top:0;left:0;width:60px;height:60px;color:#fff;font-weight:200;font-style:italic;font-size:24px;line-height:60px;text-align:center;background:rgba(0, 162, 225, 0.8);counter-increment:rank;content:counter(rank)}
-.section_rank .list_rank .thumb {display:block;height:238px}
-.section_rank .list_rank .cont {position:absolute;left:0;bottom:0;padding:14px;width:100%;height:96px;box-sizing:border-box;color:#fff;font-size:12px;line-height:17px}
-.section_rank .list_rank .cont .tit {display:block;overflow:hidden;font-size:16px;font-family:'Nunito Sans', sans-serif;line-height:24px;text-overflow:ellipsis;white-space:nowrap}
-.section_rank .list_rank .cont .txt {display:block;overflow:hidden;font-family:'Nunito Sans', sans-serif;text-overflow:ellipsis;white-space:nowrap}
-.section_rank .list_rank .cont .price {display:block;overflow:hidden;padding-top:4px;text-overflow:ellipsis;white-space:nowrap}
+.section_rank {background:#f6f6f6}
 
 .section_category {padding:52px 0 18px}
 .section_category .list_category {margin:0 -8px}
