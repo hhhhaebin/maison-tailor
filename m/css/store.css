@@ -1,20 +1,6 @@
 @charset "utf-8";
 
-
 .section_rank {padding:16px 0 36px;background:#f6f6f6}
-.section_rank .swiper-container {padding:0 16px}
-.section_rank .list_rank {counter-reset:rank}
-.section_rank .list_rank:after {display:table;clear:both;content:"";table-layout:fixed}
-.section_rank .list_rank li {float:left;width:33.33%}
-.section_rank .list_rank .link_box {display:block;position:relative;margin:8px 4px}
-.section_rank .list_rank .link_box:before {position:absolute;top:0;left:0;width:32px;height:32px;color:#fff;font-style:italic;font-size:16px;line-height:32px;text-align:center;background:rgba(0, 162, 225, 0.8);counter-increment:rank;content:counter(rank)}
-.section_rank .list_rank .thumb {display:block}
-.section_rank .list_rank .thumb img {width:100%;min-height:195px}
-.section_rank .list_rank .cont {position:absolute;left:0;bottom:0;padding:5px;width:100%;height:64px;box-sizing:border-box;color:#fff;font-size:12px;line-height:17px}
-.section_rank .list_rank .cont .tit {display:block;overflow:hidden;font-size:14px;font-family:'Nunito Sans', sans-serif;line-height:19px;text-overflow:ellipsis;white-space:nowrap}
-.section_rank .list_rank .cont .txt {display:block;overflow:hidden;font-family:'Nunito Sans', sans-serif;text-overflow:ellipsis;white-space:nowrap}
-.section_rank .list_rank .cont .price {display:block;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
-
 .section_category {padding-top:24px;border-bottom:56px solid #f6f6f6}
 .section_category .list_category {border-top:1px solid #e0e0e0;text-align:center}
 .section_category .list_category:after {display:table;clear:both;content:"";table-layout:fixed}
