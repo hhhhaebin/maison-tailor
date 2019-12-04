@@ -55,7 +55,7 @@
 .section_detail .desc .txt_desc {padding-top:16px;font-size:16px;line-height:22px;word-break:break-all}
 .section_detail .desc .link_origin {display:block;margin-top:8px;padding:12px;height:64px;border:1px solid currentColor;box-sizing:border-box;color:#00a2e1;font-size:16px;font-weight:bold;line-height:22px;text-align:center}
 .section_detail .desc .link_origin:before {display:inline-block;margin-right:4px;width:24px;height:24px;background:url('../assets/images/ico_link.png') no-repeat;vertical-align:top;content:""}
-.section_detail .desc .link_origin .url {display:block;font-size:12px;font-family:'Nunito Sans', sans-serif;font-weight:normal;line-height:16px}
+.section_detail .desc .link_origin .url {display:block;overflow:hidden;font-size:12px;font-family:'Nunito Sans', sans-serif;font-weight:normal;line-height:16px;text-overflow:ellipsis;white-space:nowrap}
 .section_detail .desc .wrap_btn {position:absolute;bottom:0;left:20px}
 .section_detail .desc .wrap_btn .btn_comm {float:left;width:220px}
 .section_detail .desc .wrap_btn .btn_comm:first-of-type {margin-right:10px}

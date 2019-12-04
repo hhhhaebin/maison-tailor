@@ -54,6 +54,7 @@ img {vertical-align:top}
 .header .layer_menu .menu a:hover {text-decoration:underline}
 .header .layer_menu .logout {display:block;margin:0 15px;padding:7px 5px;border-top:1px solid #f6f6f6;color:#9b9b9b}
 .header .btn_login {float:right;padding:0 24px;height:64px;color:#00a2e1;font-weight:bold;font-size:16px;line-height:24px}
+.container {min-height:700px}
 .aside {float:left;width:262px}
 .content {float:left;width:846px;padding-left:20px;box-sizing:border-box}
 .footer {padding:44px 0 63px;box-sizing:border-box;background:#1b1e21;text-align:center}
@@ -203,3 +204,24 @@ img {vertical-align:top}
 .section_pay .options .tit_option {display:inline-block;width:138px;vertical-align:top}
 .section_pay .cont_pay {margin-top:15px;padding:15px 0;border-top:1px solid #e0e0e0}
 .section_pay .cont_pay .tit_pay {display:block;font-size:20px;line-height:29px}
+
+
+/* FAQ */
+.section_faq {padding-top:48px;background:#fff}
+.section_faq .txt_faq {padding:20px 8px 0;font-size:18px;line-height:24px}
+.tab_menu {overflow:hidden;padding:40px 0 0 1px;font-size:0}
+.tab_menu .btn_tab {display:inline-block;margin-left:-1px;padding:10px 20px;height:40px;border:1px solid #333;box-sizing:border-box;font-size:15px;vertical-align:top}
+.tab_menu .btn_tab.on {color:#fff;background:#333}
+.faq_cont {margin-top:40px;padding-bottom:80px;border-top:3px solid #333}
+.faq_cont .list {border-bottom:3px solid #333}
+.faq_cont .list .question {position:relative;border-bottom:1px solid #eee;padding:20px 60px 20px 20px}
+.faq_cont .question .txt_q {font-size:18px;line-height:24px}
+.faq_cont .question .btn_open {position:absolute;top:0;left:0;right:0;bottom:0;width:100%;background:transparent}
+.faq_cont .question .btn_open:before,
+.faq_cont .question .btn_open:after {position:absolute;top:50%;right:32px;margin-top:-4px;width:2px;height:12px;border-radius:10px;background:#2f2f40;transform:rotate(-45deg);content:""}
+.faq_cont .question .btn_open:after {right:24px;transform:rotate(45deg)}
+.faq_cont .answer {overflow:hidden;font-size:16px;line-height:22px;max-height:0;transition:max-height .3s;background:#fafafa}
+.faq_cont .answer .txt_a {padding:20px;border-bottom:1px solid #eee;font-size:16px;line-height:22px}
+.faq_cont .open .answer {max-height:1000px;transition-duration:.8s}
+.faq_cont .open .btn_open:before {transform:rotate(45deg)}
+.faq_cont .open .btn_open:after {transform:rotate(-45deg)}
