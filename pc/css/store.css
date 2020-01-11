@@ -50,7 +50,9 @@
 .section_detail .cont {padding-bottom:15px;font-weight:bold}
 .section_detail .cont .txt {display:block;overflow:hidden;font-size:20px;font-family:'Nunito Sans', sans-serif;line-height:27px;text-overflow:ellipsis;white-space:nowrap}
 .section_detail .cont .tit {display:block;overflow:hidden;max-height:173px;font-size:40px;font-family:'Nunito Sans', sans-serif;line-height:44px;word-break:break-all}
-.section_detail .cont .price {display:block;color:#ee000a;font-weight:normal;font-size:28px;line-height:38px;text-overflow:ellipsis;white-space:nowrap}
+.section_detail .cont .price {display:block;font-weight:normal;font-size:28px;line-height:38px;text-overflow:ellipsis;white-space:nowrap}
+.section_detail .cont .price.sale>span:first-child {margin-right:10px;text-decoration:line-through}
+.section_detail .cont .price.sale>span:first-child+span{color:#ee000a}
 .section_detail .desc {overflow:hidden}
 .section_detail .desc .txt_info {font-size:16px;line-height:24px}
 .section_detail .desc .txt_desc {display:-webkit-box;overflow:hidden;padding-top:8px;max-height:110px;font-size:14px;line-height:22px;word-wrap:break-word;-webkit-line-clamp:5;-webkit-box-orient:vertical;word-break:break-all}
