@@ -120,3 +120,21 @@
 .loading_wrap .text {position:absolute;top:260px;left:0;right:0;font-size:18px;font-weight:300;z-index:9;color:#2b2b2b}
 .loading_wrap .img {margin-top:325px;z-index:1}
 .loading_wrap .img img {height:26px}
+
+/* 쿠폰마일리지 */
+.section_mileage {padding-bottom:120px}
+.section_list .tit_point {overflow:hidden;padding:16px 16px 13px;color:#fff;font-size:12px;line-height:24px;background:#4a4a4a}
+.section_list .tit_point>b {float:right;font-size:16px}
+.section_list .list_point {margin:4px 0 15px;background:#fff}
+.section_list .list_point li {position:relative;border-bottom:1px solid #f6f6f6;padding:17px 88px 16px 16px}
+.section_list .list_point .number {display:block;color:#9b9b9b;font-size:11px}
+.section_list .list_point .txt {display:block;padding:6px 0 4px;font-size:18px;line-height:21px}
+.section_list .list_point .date {display:block;color:#4a4a4a;font-size:12px}
+.section_list .list_point .point {position:absolute;top:50%;right:16px;margin-top:-20px;min-width:56px;height:40px;color:#00a2e1;font-size:11px;line-height:13px;text-align:center}
+.section_list .list_point .point>b {display:block;color:#4a4a4a;font-size:16px;line-height:24px;}
+.section_list .wrap_btn .btn_more {color:#fff;font-size:12px;background:#9b9b9b}
+
+.section_coupon {padding-bottom:70px}
+.section_coupon .register {position:relative;margin-top:-1px;padding:0 72px 16px 16px;background:#4a4a4a}
+.section_coupon .register input {padding:9px 10px;width:100%;box-sizing:border-box;border:0;border-radius:4px;color:#9b9b9b;font-size:12px;background:#fff}
+.section_coupon .register button {position:absolute;top:0;right:16px;width:48px;height:36px;border-radius:4px;color:#fff;font-weight:bold;font-size:12px;background:#00a2e1}
